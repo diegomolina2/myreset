@@ -1,0 +1,635 @@
+Build a Next.js (or React.js) web app with TailwindCSS, fully responsive, mobile-first, and works offline.
+ This is a health & wellness challenge and tracking platform with gamification.
+ All user data is saved on the localStorage, no backend/database.
+UI should be light, colorful, minimalistic, inspiring, with African and Brazilian illustrations.
+ Support multilingual:
+English (Nigerian, with cultural terms like “Slim Down” for weight loss, “Chop” for meal, etc.)
+
+
+French (Ivory Coast).
+
+
+Structure the project cleanly with /pages, /components, /utils, /data.
+ Provide clear comments and reusable components.
+
+🎯 Features
+✅ Welcome Screen
+Choose language: English (NG) or French (CI).
+
+
+✅ Onboarding Quiz
+Collect: Name, Age, Height, Current Weight, Target Weight, Gender, Exercise frequency, Dietary preferences (vegan, halal, etc.).
+
+
+Store data in localStorage.
+
+
+✅ Challenges
+4 Challenges:
+
+
+14-Day Slim Down Challenge
+
+
+7-Day Detox
+
+
+30-Day No Sugar
+
+
+28-Day Full Body Reset
+
+
+Each challenge has daily tasks:
+
+
+Intermittent fasting goals.
+
+
+Specific exercise(s) of the day.
+
+
+Suggested meals/snacks.
+
+
+Water intake target.
+
+
+Motivational phrase.
+
+
+User marks tasks as done and unlocks next day.
+
+
+Progress saved in localStorage.
+
+
+Badges/achievements unlocked as milestones are reached.
+
+
+✅ Exercise Library
+20 home-friendly exercises, categorized:
+
+
+Light / Moderate / Advanced.
+
+
+Each with:
+
+
+Name, duration or reps, rest period.
+
+
+Can be favorited & tracked.
+
+
+✅ Meal Library
+30 culturally relevant meals/snacks for Nigeria & Ivory Coast:
+
+
+Jollof Rice, Egusi Soup, Akara, Moi Moi, Suya, Efo Riro, Fried Plantain, Yam Porridge, Okra Soup, Grilled Tilapia, Attiéké with Fish, Kedjenou Chicken, Alloco, Garri with Soup, Fufu, Peanut Stew, Coconut Rice, Puff-Puff, Abacha (African Salad), Banga Soup, Kelewele, Gboma Dessi, Banku & Okro, Chicken Yassa, Cassava Leaves Stew, Grilled Chicken with Attiéké, Okro & Spinach Sauce, Palm Butter Soup, Beans & Fried Plantain, and Kpokpo Garri with Groundnut.
+
+
+Meals can be favorited & logged daily.
+
+
+✅ Trackers
+Weight log over time (date + weight) — show progress graph.
+
+
+Mood log per day (🙂 😐 😞) — show on timeline.
+
+
+Water intake calculator based on weight & activity.
+
+
+Daily calories recommendation based on BMI & activity.
+
+
+Waist-to-hip ratio & body fat estimations with additional measurements.
+
+
+✅ Badges & Achievements
+Examples:
+
+
+“First Step” — completed day 1.
+
+
+“Hydrated” — hit water goal for 7 days.
+
+
+“No Sugar Hero” — finished 30-day no sugar.
+
+
+“Consistent” — 7 days streak.
+
+
+“Halfway” — 50% of any challenge.
+
+
+Saved in localStorage.
+
+
+✅ Progress Summary
+Weekly & monthly view:
+
+
+Weight, mood, water, calories, challenges.
+
+
+Graphs using a library like Chart.js or Recharts.
+
+
+✅ Motivational Quotes
+Show one on each day/task.
+
+
+Can be saved as favorite.
+
+
+✅ FAQ & Educational Tips
+About fasting, hydration, exercise, healthy eating.
+
+
+✅ Export Data
+Button to download/export full user data as JSON:
+
+
+Profile, progress, mood, meals, measurements, challenges, achievements.
+
+
+✅ Light/Dark Mode
+ ✅ Ready to convert to PWA later.
+ ✅ Works offline.
+ ✅ Ready to deploy to Android/iOS via wrapper.
+Exemplo de data structure para localstorage
+{
+  "userProfile": { "name": "", "age": 0, "height": 0, "weight": 0, "targetWeight": 0, "gender": "", "exerciseLevel": "", "diet": "" },
+  "challenges": { "14-day": { "currentDay": 1, "completedDays": [] }, "7-day-detox": {...} },
+  "weights": [{ "date": "2025-07-07", "weight": 75 }],
+  "moods": [{ "date": "2025-07-07", "mood": "🙂" }],
+  "measurements": [{ "date": "2025-07-07", "waist": 80, "hips": 100 }],
+  "waterLog": [{ "date": "2025-07-07", "liters": 2 }],
+  "caloriesLog": [{ "date": "2025-07-07", "calories": 1800 }],
+  "badges": ["First Step", "Hydrated"],
+  "favorites": { "exercises": [], "meals": [], "quotes": [] },
+  "exerciseHistory": [],
+  "mealHistory": []
+}
+
+📄 Pages & Components
+Pages
+/ — Welcome & language select.
+
+
+/onboarding — Quiz & profile creation.
+
+
+/dashboard — Overview of challenges & trackers.
+
+
+/challenge/[name] — Challenge details & checklist.
+
+
+/exercises — Exercise library.
+
+
+/meals — Meal library.
+
+
+/progress — Weekly & monthly graphs.
+
+
+/badges — Badges & achievements.
+
+
+/faq — Education & tips.
+
+
+Components
+LanguageSwitcher
+
+
+ChallengeCard
+
+
+TaskChecklist
+
+
+ExerciseCard
+
+
+MealCard
+
+
+WaterTracker
+
+
+CaloriesTracker
+
+
+MoodLogger
+
+
+WeightGraph
+
+
+BadgeCard
+
+
+MotivationalQuote
+
+
+ExportDataButton
+
+
+
+🎨 UI
+Mobile-first & responsive.
+
+
+Light & dark modes.
+
+
+TailwindCSS + HeroIcons/Lucide for icons.
+
+
+Animations with Framer Motion.
+
+
+
+⚙️ Tech
+Next.js 14 (or React.js + Vite)
+
+
+TailwindCSS
+
+
+Chart.js or Recharts
+
+
+i18next or react-i18next for translations
+
+
+Store translations in JSON files for en-NG and fr-CI.
+
+
+localStorage for all persistence.
+
+
+
+📦 Deliverables
+✅ Fully working app in Replit.
+ ✅ README with setup & build instructions.
+ ✅ Modular code, easy to extend.
+ ✅ Dummy data for 4 challenges, 20 exercises, 30 meals already provided.
+ ✅ Ready for publishing.
+Estrutura JSON dos challenges
+
+[
+  {
+    "id": "14-day-slim-down",
+    "name": "14-Day Slim Down Challenge",
+    "description": "A quick-start weight loss plan with daily tasks to boost metabolism and burn fat.",
+    "days": 14,
+    "dailyTasks": [
+      { "day": 1, "tasks": ["Log your weight", "Drink at least 2L of water", "Complete 15 min of Jumping Jacks", "Eat Jollof Rice for lunch", "Mark your mood"] },
+      { "day": 2, "tasks": ["Drink 2.5L of water", "Complete 20 squats", "Eat Egusi Soup for dinner", "Avoid sugar", "Log your mood"] },
+      { "day": 3, "tasks": ["Log your weight", "Do 10 push-ups", "Eat Moi Moi for breakfast", "Drink green tea", "Mark your mood"] },
+      { "day": 4, "tasks": ["Drink 2L water", "Complete 1 min plank", "Eat Grilled Tilapia with Attiéké", "Avoid junk food", "Log your mood"] },
+      { "day": 5, "tasks": ["Log your weight", "Complete 15 lunges", "Eat Akara snack", "Drink herbal tea", "Mark your mood"] },
+      { "day": 6, "tasks": ["Drink 2.5L water", "Complete 20 jumping jacks", "Eat Peanut Stew for dinner", "Avoid added sugars", "Log your mood"] },
+      { "day": 7, "tasks": ["Log your weight", "Complete 10 burpees", "Eat Kelewele as snack", "Drink lemon water", "Mark your mood"] },
+      { "day": 8, "tasks": ["Drink 2L water", "Complete 20 squats", "Eat Alloco for lunch", "Avoid processed foods", "Log your mood"] },
+      { "day": 9, "tasks": ["Log your weight", "Complete 15 push-ups", "Eat Abacha (African Salad) for dinner", "Drink green tea", "Mark your mood"] },
+      { "day": 10, "tasks": ["Drink 2.5L water", "Complete 1 min plank", "Eat Yam Porridge", "Avoid sugar", "Log your mood"] },
+      { "day": 11, "tasks": ["Log your weight", "Complete 10 lunges", "Eat Cassava Leaves Stew", "Drink herbal tea", "Mark your mood"] },
+      { "day": 12, "tasks": ["Drink 2L water", "Complete 20 jumping jacks", "Eat Banku & Okro for lunch", "Avoid junk food", "Log your mood"] },
+      { "day": 13, "tasks": ["Log your weight", "Complete 10 burpees", "Eat Fufu with Okra Soup", "Drink lemon water", "Mark your mood"] },
+      { "day": 14, "tasks": ["Drink 2.5L water", "Complete 30 min mixed exercises", "Eat Grilled Chicken with Attiéké", "Reflect on progress", "Celebrate your success!"] }
+    ]
+  },
+  {
+    "id": "7-day-detox",
+    "name": "7-Day Detox",
+    "description": "Cleanse your body and reset your habits in just 7 days.",
+    "days": 7,
+    "dailyTasks": [
+      { "day": 1, "tasks": ["Start day with lemon water", "Eat clean breakfast (Puff-Puff)", "Avoid sugar", "Complete 15 min light exercise", "Reflect on your progress"] },
+      { "day": 2, "tasks": ["Start day with warm water", "Eat Coconut Rice for lunch", "Avoid caffeine", "Complete 20 squats", "Log your mood"] },
+      { "day": 3, "tasks": ["Drink herbal tea", "Eat Beans & Fried Plantain", "Avoid processed foods", "Complete 1 min plank", "Reflect on your progress"] },
+      { "day": 4, "tasks": ["Start with lemon water", "Eat Garri with soup", "Avoid sugar", "Complete 10 push-ups", "Log your mood"] },
+      { "day": 5, "tasks": ["Drink 2L water", "Eat Jollof Rice", "Avoid alcohol", "Complete 20 lunges", "Reflect on your progress"] },
+      { "day": 6, "tasks": ["Start day with warm water", "Eat Attiéké with Fish", "Avoid sugar", "Complete 15 jumping jacks", "Log your mood"] },
+      { "day": 7, "tasks": ["Drink herbal tea", "Eat Peanut Stew", "Complete 30 min light exercise", "Reflect and plan next steps", "Celebrate your detox success!"] }
+    ]
+  },
+  {
+    "id": "30-day-no-sugar",
+    "name": "30-Day No Sugar",
+    "description": "Break your sugar habit and boost your health in 30 days.",
+    "days": 30,
+    "dailyTasks": [
+      { "day": 1, "tasks": ["Log weight", "Drink 2L water", "Replace soda with water", "Eat grilled fish", "Mark your mood"] },
+      { "day": 2, "tasks": ["Eat fruit instead of dessert", "Do 15 min of light cardio", "Drink lemon water", "Log your mood"] },
+      { "day": 3, "tasks": ["Avoid packaged snacks", "Drink herbal tea", "Eat fresh salad", "Log your mood"] },
+      { "day": 4, "tasks": ["Log weight", "Drink 2.5L water", "Eat Peanut Stew", "Walk for 20 minutes", "Mark your mood"] },
+      { "day": 5, "tasks": ["Eat nuts as snack", "Avoid bread", "Do 10 squats", "Log your mood"] },
+      { "day": 6, "tasks": ["Drink green tea", "Eat cassava with vegetables", "Avoid alcohol", "Mark your mood"] },
+      { "day": 7, "tasks": ["Log weight", "Cook at home only", "Do 15 min stretching", "Log your mood"] },
+      { "day": 8, "tasks": ["Drink 2L water", "Eat more vegetables", "Avoid juice", "Log your mood"] },
+      { "day": 9, "tasks": ["Log weight", "Eat grilled chicken", "Complete 20 push-ups", "Mark your mood"] },
+      { "day": 10, "tasks": ["Eat beans & plantain", "Drink lemon water", "Avoid processed food", "Log your mood"] },
+      { "day": 11, "tasks": ["Log weight", "Eat jollof rice", "Do 15 squats", "Log your mood"] },
+      { "day": 12, "tasks": ["Avoid chocolate", "Drink green tea", "Eat fruit salad", "Log your mood"] },
+      { "day": 13, "tasks": ["Log weight", "Do yoga for 20 min", "Eat peanut stew", "Log your mood"] },
+      { "day": 14, "tasks": ["Drink 2.5L water", "Avoid fried foods", "Eat steamed vegetables", "Log your mood"] },
+      { "day": 15, "tasks": ["Log weight", "Eat home-cooked meal", "Do 15 push-ups", "Mark your mood"] },
+      { "day": 16, "tasks": ["Avoid pastries", "Eat grilled tilapia", "Walk 20 min", "Log your mood"] },
+      { "day": 17, "tasks": ["Log weight", "Drink herbal tea", "Eat fufu & okra", "Log your mood"] },
+      { "day": 18, "tasks": ["Eat yam porridge", "Avoid soda", "Stretch 15 min", "Log your mood"] },
+      { "day": 19, "tasks": ["Log weight", "Drink lemon water", "Eat fresh salad", "Log your mood"] },
+      { "day": 20, "tasks": ["Eat cassava leaves stew", "Do squats & lunges", "Log your mood"] },
+      { "day": 21, "tasks": ["Log weight", "Drink green tea", "Eat grilled chicken", "Log your mood"] },
+      { "day": 22, "tasks": ["Avoid sugar drinks", "Eat banku & okro", "Do plank for 1 min", "Log your mood"] },
+      { "day": 23, "tasks": ["Log weight", "Drink 2L water", "Eat peanut stew", "Log your mood"] },
+      { "day": 24, "tasks": ["Eat grilled fish", "Walk 20 min", "Avoid candy", "Log your mood"] },
+      { "day": 25, "tasks": ["Log weight", "Drink herbal tea", "Eat moi moi", "Log your mood"] },
+      { "day": 26, "tasks": ["Eat fresh fruits", "Do yoga", "Avoid biscuits", "Log your mood"] },
+      { "day": 27, "tasks": ["Log weight", "Eat jollof rice", "Drink green tea", "Log your mood"] },
+      { "day": 28, "tasks": ["Avoid desserts", "Eat abacha", "Do 20 squats", "Log your mood"] },
+      { "day": 29, "tasks": ["Log weight", "Eat grilled chicken", "Walk 20 min", "Log your mood"] },
+      { "day": 30, "tasks": ["Drink 2.5L water", "Eat home-cooked meal", "Reflect and celebrate success!", "Log your mood"] }
+    ]
+  },
+  {
+    "id": "10-day-hydration-boost",
+    "name": "10-Day Hydration Boost",
+    "description": "Improve your energy, skin, and metabolism with optimal hydration.",
+    "days": 10,
+    "dailyTasks": [
+      { "day": 1, "tasks": ["Drink 2L water", "Eat juicy fruits", "Mark your mood", "Log your weight"] },
+      { "day": 2, "tasks": ["Drink 2.5L water", "Avoid soda", "Eat cucumber salad", "Log your mood"] },
+      { "day": 3, "tasks": ["Drink 3L water", "Eat fresh watermelon", "Do light stretching", "Log your mood"] },
+      { "day": 4, "tasks": ["Drink 2.5L water", "Eat hydrating soup", "Walk 20 min", "Log your mood"] },
+      { "day": 5, "tasks": ["Drink 3L water", "Avoid alcohol", "Eat pineapple snack", "Log your mood"] },
+      { "day": 6, "tasks": ["Drink 2L water", "Eat lettuce salad", "Do yoga", "Log your mood"] },
+      { "day": 7, "tasks": ["Drink 2.5L water", "Eat orange slices", "Complete 10 squats", "Log your mood"] },
+      { "day": 8, "tasks": ["Drink 3L water", "Avoid caffeine", "Eat papaya", "Log your mood"] },
+      { "day": 9, "tasks": ["Drink 2.5L water", "Eat hydrating stew", "Do light exercise", "Log your mood"] },
+      { "day": 10, "tasks": ["Drink 3L water", "Eat water-rich vegetables", "Reflect on progress", "Celebrate success!"] }
+    ]
+  }
+]
+
+
+Sugestões de estrutura /data
+  challenges.json
+  exercises.json
+  meals.json
+  translations/
+    en-NG.json
+    fr-CI.json
+
+
+
+Estrutura de refeições
+[
+  {
+    "name": "Jollof Rice",
+    "description": "Spiced tomato-based rice dish popular across West Africa.",
+    "ingredients": ["rice", "tomatoes", "onions", "pepper", "vegetable oil", "spices"],
+    "calories": 450,
+    "additionalInfo": "Served at parties and family meals. High in carbohydrates."
+  },
+  {
+    "name": "Egusi Soup",
+    "description": "Thick soup made with ground melon seeds, vegetables, and meat.",
+    "ingredients": ["melon seeds", "spinach", "meat or fish", "palm oil", "pepper", "seasonings"],
+    "calories": 600,
+    "additionalInfo": "Often served with pounded yam. Rich in protein and fat."
+  },
+  {
+    "name": "Fufu",
+    "description": "Soft dough made from cassava, yam, or plantain, served with soup.",
+    "ingredients": ["cassava", "yam", "plantain"],
+    "calories": 300,
+    "additionalInfo": "Staple side dish, eaten with hands."
+  },
+  {
+    "name": "Moi Moi",
+    "description": "Steamed bean pudding made from ground peeled beans.",
+    "ingredients": ["black-eyed peas", "onions", "pepper", "oil", "seasonings"],
+    "calories": 250,
+    "additionalInfo": "Low in fat, high in protein. Common at breakfast."
+  },
+  {
+    "name": "Grilled Tilapia with Attiéké",
+    "description": "Spicy grilled fish served with cassava couscous.",
+    "ingredients": ["tilapia", "cassava", "onions", "pepper", "spices"],
+    "calories": 400,
+    "additionalInfo": "Very popular in Côte d’Ivoire."
+  },
+  {
+    "name": "Peanut Stew",
+    "description": "Savory peanut-based stew with meat and vegetables.",
+    "ingredients": ["peanuts", "tomatoes", "onions", "meat", "spinach", "spices"],
+    "calories": 550,
+    "additionalInfo": "Rich and filling. High in protein and fat."
+  },
+  {
+    "name": "Kelewele",
+    "description": "Fried spicy plantain cubes.",
+    "ingredients": ["ripe plantains", "ginger", "pepper", "oil", "spices"],
+    "calories": 300,
+    "additionalInfo": "Street snack. High in carbs and fat."
+  },
+  {
+    "name": "Alloco",
+    "description": "Fried plantains served with spicy sauce and sometimes fish.",
+    "ingredients": ["ripe plantains", "onions", "pepper", "oil"],
+    "calories": 350,
+    "additionalInfo": "Common street food in Côte d’Ivoire."
+  },
+  {
+    "name": "Abacha (African Salad)",
+    "description": "Cassava salad mixed with vegetables and fish.",
+    "ingredients": ["cassava", "garden eggs", "fish", "oil", "pepper", "spices"],
+    "calories": 400,
+    "additionalInfo": "Often eaten as a light lunch."
+  },
+  {
+    "name": "Yam Porridge",
+    "description": "Cooked yam chunks in a flavorful tomato sauce.",
+    "ingredients": ["yam", "tomatoes", "onions", "oil", "spinach"],
+    "calories": 350,
+    "additionalInfo": "Comfort food. Moderate calories."
+  },
+  {
+    "name": "Cassava Leaves Stew",
+    "description": "Stew made from ground cassava leaves and meat.",
+    "ingredients": ["cassava leaves", "meat", "oil", "pepper", "onions"],
+    "calories": 500,
+    "additionalInfo": "Rich in fiber and iron."
+  },
+  {
+    "name": "Banku & Okro Soup",
+    "description": "Fermented corn & cassava dough with okra-based soup.",
+    "ingredients": ["corn", "cassava", "okra", "meat or fish", "spices"],
+    "calories": 600,
+    "additionalInfo": "Sticky texture. High in fiber and carbs."
+  },
+  {
+    "name": "Akara",
+    "description": "Deep-fried bean cakes.",
+    "ingredients": ["black-eyed peas", "onions", "pepper", "oil"],
+    "calories": 300,
+    "additionalInfo": "Breakfast or snack. Protein-rich."
+  },
+  {
+    "name": "Attiéké",
+    "description": "Fermented cassava granules similar to couscous.",
+    "ingredients": ["cassava"],
+    "calories": 350,
+    "additionalInfo": "Staple in Côte d’Ivoire. Often paired with fish."
+  },
+  {
+    "name": "Suya",
+    "description": "Spicy skewered meat grilled over open flames.",
+    "ingredients": ["beef", "peanut spice mix", "onions"],
+    "calories": 450,
+    "additionalInfo": "Popular Nigerian street food. High in protein."
+  },
+  {
+    "name": "Puff-Puff",
+    "description": "Sweet deep-fried dough balls.",
+    "ingredients": ["flour", "sugar", "yeast", "oil"],
+    "calories": 250,
+    "additionalInfo": "Dessert or snack. High in carbs."
+  },
+  {
+    "name": "Garri",
+    "description": "Granulated cassava eaten with soups or as a drink.",
+    "ingredients": ["cassava"],
+    "calories": 300,
+    "additionalInfo": "Light and versatile. High in carbs."
+  },
+  {
+    "name": "Beans & Fried Plantain",
+    "description": "Stewed beans served with fried plantain.",
+    "ingredients": ["beans", "plantain", "oil", "onions", "pepper"],
+    "calories": 400,
+    "additionalInfo": "Good balance of protein and carbs."
+  },
+  {
+    "name": "Coconut Rice",
+    "description": "Rice cooked in coconut milk with spices.",
+    "ingredients": ["rice", "coconut milk", "onions", "pepper", "oil"],
+    "calories": 450,
+    "additionalInfo": "Creamy and aromatic. High in fat."
+  },
+  {
+    "name": "Grilled Chicken",
+    "description": "Spicy marinated chicken roasted over fire.",
+    "ingredients": ["chicken", "spices", "oil"],
+    "calories": 400,
+    "additionalInfo": "Lean protein. Popular at parties."
+  },
+  {
+    "name": "Fufu with Okra Soup",
+    "description": "Fufu served with slimy okra-based soup.",
+    "ingredients": ["cassava", "okra", "meat", "spices"],
+    "calories": 500,
+    "additionalInfo": "Traditional and filling."
+  },
+  {
+    "name": "Peanut Butter Soup",
+    "description": "Soup made with ground peanuts and meat.",
+    "ingredients": ["peanuts", "meat", "onions", "spices"],
+    "calories": 550,
+    "additionalInfo": "Creamy and rich in protein."
+  },
+  {
+    "name": "Okra Soup",
+    "description": "Soup made mainly from chopped okra and spices.",
+    "ingredients": ["okra", "meat", "onions", "spices"],
+    "calories": 300,
+    "additionalInfo": "Low calorie and fiber-rich."
+  },
+  {
+    "name": "Vegetable Stew",
+    "description": "Tomato-based stew packed with green vegetables.",
+    "ingredients": ["spinach", "tomatoes", "onions", "oil", "meat"],
+    "calories": 350,
+    "additionalInfo": "Nutrient-rich. Often served with rice or fufu."
+  },
+  {
+    "name": "Grilled Fish",
+    "description": "Whole fish marinated and grilled.",
+    "ingredients": ["fish", "onions", "spices", "oil"],
+    "calories": 350,
+    "additionalInfo": "Lean protein. Popular street food."
+  },
+  {
+    "name": "Fried Rice",
+    "description": "Rice stir-fried with vegetables and meat.",
+    "ingredients": ["rice", "vegetables", "oil", "chicken"],
+    "calories": 500,
+    "additionalInfo": "Colorful and festive."
+  },
+  {
+    "name": "Palm Nut Soup",
+    "description": "Soup made from palm fruit pulp and meat.",
+    "ingredients": ["palm fruit", "meat", "onions", "spices"],
+    "calories": 550,
+    "additionalInfo": "Rich and hearty. High in fat."
+  },
+  {
+    "name": "Abacha & Ugba",
+    "description": "Cassava salad with African oil bean and spices.",
+    "ingredients": ["cassava", "ugba", "onions", "oil", "pepper"],
+    "calories": 350,
+    "additionalInfo": "Light and spicy snack."
+  },
+  {
+    "name": "Ofe Nsala",
+    "description": "White soup made with fish, yam, and spices.",
+    "ingredients": ["fish", "yam", "spices", "onions"],
+    "calories": 450,
+    "additionalInfo": "Comforting and mild."
+  },
+  {
+    "name": "Efo Riro",
+    "description": "Spinach stew cooked with pepper and meat.",
+    "ingredients": ["spinach", "pepper", "onions", "meat", "oil"],
+    "calories": 350,
+    "additionalInfo": "Nutritious and flavorful."
+  }
+]
+
+Estrutura de exercícios
+
+[
+  { "name": "Jumping Jacks", "category": "Light", "duration": "1 min", "rest": "30 sec" },
+  { "name": "Push-Ups", "category": "Moderate", "reps": "10–15", "rest": "45 sec" },
+  { "name": "Squats", "category": "Moderate", "reps": "15–20", "rest": "45 sec" },
+  { "name": "Lunges", "category": "Moderate", "reps": "10 each leg", "rest": "45 sec" },
+  { "name": "Plank", "category": "Moderate", "duration": "30–60 sec", "rest": "30 sec" },
+  { "name": "Burpees", "category": "Advanced", "reps": "10", "rest": "60 sec" },
+  { "name": "Mountain Climbers", "category": "Advanced", "duration": "1 min", "rest": "45 sec" },
+  { "name": "High Knees", "category": "Light", "duration": "1 min", "rest": "30 sec" },
+  { "name": "Wall Sit", "category": "Light", "duration": "30–60 sec", "rest": "30 sec" },
+  { "name": "Arm Circles", "category": "Light", "duration": "1 min", "rest": "30 sec" },
+  { "name": "Side Plank", "category": "Moderate", "duration": "30–60 sec each side", "rest": "30 sec" },
+  { "name": "Bicycle Crunches", "category": "Moderate", "reps": "20", "rest": "45 sec" },
+  { "name": "Glute Bridges", "category": "Light", "reps": "15", "rest": "30 sec" },
+  { "name": "Step-Ups", "category": "Moderate", "reps": "10 each leg", "rest": "45 sec" },
+  { "name": "Skater Jumps", "category": "Advanced", "duration": "1 min", "rest": "45 sec" },
+  { "name": "Tricep Dips", "category": "Moderate", "reps": "10–15", "rest": "45 sec" },
+  { "name": "Flutter Kicks", "category": "Advanced", "duration": "1 min", "rest": "30 sec" },
+  { "name": "Calf Raises", "category": "Light", "reps": "20", "rest": "30 sec" },
+  { "name": "Side Lunges", "category": "Moderate", "reps": "10 each side", "rest": "45 sec" },
+  { "name": "Bear Crawl", "category": "Advanced", "duration": "30 sec", "rest": "60 sec" }
+]
+

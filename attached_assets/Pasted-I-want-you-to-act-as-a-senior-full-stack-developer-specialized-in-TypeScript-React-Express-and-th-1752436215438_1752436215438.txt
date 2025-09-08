@@ -1,0 +1,100 @@
+I want you to act as a senior full-stack developer specialized in TypeScript, React, Express, and the stack defined in the package.json below.
+
+The app is already running on Replit with this stack, and I need to upgrade it without losing any data already saved in users’ browsers.
+
+Here is the current package.json so you can see the dependencies available:
+
+json
+Copy
+Edit
+{
+  "name": "rest-express",
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "NODE_ENV=development tsx server/index.ts",
+    "build": "vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
+    "start": "NODE_ENV=production node dist/index.js",
+    "check": "tsc",
+    "db:push": "drizzle-kit push"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.10.0",
+    "@tanstack/react-query": "^5.60.5",
+    "@radix-ui/*": "...",
+    "clsx": "^2.1.1",
+    "drizzle-orm": "^0.39.1",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "framer-motion": "^11.18.2",
+    "i18next": "^25.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.55.0",
+    "react-i18next": "^15.6.0",
+    "tailwindcss": "^3.4.17",
+    "vite": "^5.4.19",
+    "...": "other dependencies already listed above"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.1",
+    "typescript": "5.6.3",
+    "@vitejs/plugin-react": "^4.3.2",
+    "...": "other devDependencies already listed above"
+  }
+}
+🚀 What I need you to implement:
+1️⃣ Fix the logo
+The logo.png is not being displayed in the app.
+
+Please check the correct path, proper import into React, and make sure that Vite’s build doesn’t break or change the path incorrectly.
+
+2️⃣ Settings panel
+Create a settings panel where users can edit the initial form information: name, age, weight, height, etc.
+
+These updated values should be saved to localStorage (or another lightweight client-side solution) so that existing users’ data remains intact.
+
+3️⃣ Exercises with images or GIFs
+Modify the JSON structure used for exercises to include a field for an image or GIF path.
+
+Allow users, when creating or editing an exercise, to select or specify a file to illustrate how the exercise is performed.
+
+Make sure the files are saved in a folder within the project (e.g., /public/exercises-media/) and that the relative path is stored in the JSON.
+
+4️⃣ Menu with language switching
+Add a language switcher in the menu.
+
+Besides the currently supported languages, add support for the following regional English variants:
+
+English (South Africa)
+
+English (Kenya)
+
+English (Ghana)
+
+Use react-i18next and i18next to implement this properly.
+
+5️⃣ Import CSV
+Implement functionality to import a CSV file that was previously exported by this same application.
+
+The CSV should update existing information without deleting data that is not included in the CSV.
+
+Ensure data integrity for existing users.
+
+6️⃣ Preserve existing user data
+All of the above changes must be made in a way that does not delete or corrupt any data already saved in users’ browsers (localStorage, sessionStorage, cookies, or IndexedDB).
+
+⚙️ Notes
+The project is using TypeScript, React, Vite for the frontend, and Express for the backend.
+
+Packages like react-i18next, react-hook-form, @tanstack/react-query, and the @radix-ui UI components are already installed and available.
+
+Please follow best practices, keep the code clean, modular, and consistent with the current style of the project.
+
+If necessary, you can create new Express routes or endpoints to support image uploads, GIFs, or CSV import.
+
+Please produce the necessary code for the relevant files, any new routes (if needed), and the updated React components to implement these features as described.
+Make sure everything remains compatible with modern browsers and preserves the data already stored in users’ browsers.
+
+If possible, also provide a checklist of which files to edit and any suggested folder/file naming for the new functionality.

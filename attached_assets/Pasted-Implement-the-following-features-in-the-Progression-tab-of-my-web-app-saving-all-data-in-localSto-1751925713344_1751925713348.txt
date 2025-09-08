@@ -1,0 +1,159 @@
+Implement the following features in the “Progression” tab of my web app, saving all data in localStorage in a clean and consistent way.
+Ensure that all calculations dynamically update whenever the user changes their current weight or any other relevant input.
+Also include a water tracking functionality that compares how much water the user has already consumed today versus the recommended amount.
+Save both inputs and results clearly, and display feedback messages about progress.
+
+🚀 Features to Implement in Progression Tab
+🔷 General Notes:
+All calculations must automatically recalculate when user updates their weight, activity, or other inputs.
+
+Save user goal: lose weight, gain weight, or maintain weight.
+
+Show both numerical results and a short interpretation/message for each metric.
+
+Track the amount of water the user logs per day and compare to calculated target.
+
+Data is stored only in localStorage under clear keys.
+
+Include a “Reset Progression” button to clear the progression data.
+
+When the user reloads the page, load the last saved values into the forms and update the results.
+
+Show validation and friendly error messages if inputs are invalid.
+
+1️⃣ Water Intake Calculator & Tracker
+Ask the user:
+
+Weight (kg)
+
+Activity level (sedentary, moderate, active)
+
+Goal
+
+Calculate recommended daily water:
+
+Base: 35ml × weight (kg)
+
+If activity = moderate → +500ml
+
+If activity = active → +1000ml
+
+If goal = lose → +500ml
+
+Allow the user to log how much water they’ve already consumed today.
+
+Compare logged water vs. recommended and display message (e.g., “You’ve reached 70% of your daily goal.”).
+
+Save in localStorage:
+
+js
+Copy
+Edit
+localStorage.setItem("waterIntake", JSON.stringify({
+  weight: 70,
+  activity: "moderate",
+  goal: "lose",
+  recommendedMl: 3000,
+  loggedMlToday: 1500,
+  lastUpdated: "2025-07-07"
+}));
+2️⃣ Daily Calories Recommendation
+Ask the user:
+
+Height (cm)
+
+Weight (kg)
+
+Age
+
+Sex (male/female)
+
+Activity level
+
+Goal
+
+Calculate BMI:
+weight / (height/100)^2
+
+Calculate maintenance calories using Mifflin-St Jeor formula:
+
+Men: BMR = 10×weight + 6.25×height − 5×age + 5
+
+Women: BMR = 10×weight + 6.25×height − 5×age − 161
+
+Adjust for activity & goal as before.
+
+Save in localStorage:
+
+js
+Copy
+Edit
+localStorage.setItem("dailyCalories", JSON.stringify({
+  weight: 70,
+  height: 175,
+  age: 30,
+  sex: "male",
+  activity: "active",
+  goal: "maintain",
+  BMI: 22.86,
+  recommendedCalories: 2500,
+  lastUpdated: "2025-07-07"
+}));
+3️⃣ Waist-to-Hip Ratio & Body Fat
+Ask the user:
+
+Waist (cm)
+
+Hip (cm)
+
+Neck (cm)
+
+Height (cm)
+
+Sex
+
+Calculate:
+
+Waist-to-hip ratio: waist / hip
+
+Body fat % using US Navy method:
+
+Men:
+BF% = 495 / (1.0324 − 0.19077×log10(waist−neck) + 0.15456×log10(height)) − 450
+
+Women:
+BF% = 495 / (1.29579 − 0.35004×log10(waist+hip−neck) + 0.221×log10(height)) − 450
+
+Save in localStorage:
+
+js
+Copy
+Edit
+localStorage.setItem("bodyComposition", JSON.stringify({
+  waist: 80,
+  hip: 95,
+  neck: 38,
+  height: 175,
+  sex: "male",
+  waistToHipRatio: 0.84,
+  bodyFatPercentage: 18.5,
+  lastUpdated: "2025-07-07"
+}));
+🔷 Optional UI/UX Suggestions:
+✅ Inputs should prefill from localStorage if data exists.
+✅ Every time the user updates their weight, activity, or goal → automatically recalculate everything and update results + localStorage.
+✅ Water tracker resets logged amount at midnight (optional: detect day change).
+✅ Progress bars: show % of water goal reached and % of calorie goal.
+✅ Show interpretation messages like:
+
+“Your BMI is within the normal range.”
+
+“Your waist-to-hip ratio suggests a low risk.”
+
+“You’ve already drunk 70% of your recommended water today.”
+
+📌 Summary of LocalStorage Keys:
+Key	What it stores
+waterIntake	weight, activity, goal, recommendedMl, loggedMlToday
+dailyCalories	all user metrics + BMI + calories
+bodyComposition	all measurements + ratios

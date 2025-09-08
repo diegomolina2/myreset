@@ -1,0 +1,97 @@
+Quero que você atue como um desenvolvedor full-stack especialista em TypeScript, React, Express e a stack descrita no meu package.json abaixo. O aplicativo já está rodando no Replit com essa stack, e preciso fazer um upgrade nele sem perder os dados já salvos nos navegadores dos usuários.
+
+Aqui está o package.json do projeto para você entender as dependências disponíveis:
+
+json
+Copy
+Edit
+{  
+  "name": "rest-express",  
+  "version": "1.0.0",  
+  "type": "module",  
+  "license": "MIT",  
+  "scripts": {  
+    "dev": "NODE_ENV=development tsx server/index.ts",  
+    "build": "vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",  
+    "start": "NODE_ENV=production node dist/index.js",  
+    "check": "tsc",  
+    "db:push": "drizzle-kit push"  
+  },  
+  "dependencies": {  
+    "@hookform/resolvers": "^3.10.0",  
+    "@tanstack/react-query": "^5.60.5",  
+    "@radix-ui/*": "...",  
+    "clsx": "^2.1.1",  
+    "drizzle-orm": "^0.39.1",  
+    "express": "^4.21.2",  
+    "express-session": "^1.18.1",  
+    "framer-motion": "^11.18.2",  
+    "i18next": "^25.3.1",  
+    "react": "^18.3.1",  
+    "react-dom": "^18.3.1",  
+    "react-hook-form": "^7.55.0",  
+    "react-i18next": "^15.6.0",  
+    "tailwindcss": "^3.4.17",  
+    "vite": "^5.4.19",  
+    "...": "demais dependências acima"  
+  },  
+  "devDependencies": {  
+    "tsx": "^4.19.1",  
+    "typescript": "5.6.3",  
+    "@vitejs/plugin-react": "^4.3.2",  
+    "...": "demais devDependencies acima"  
+  }  
+}
+🚀 O que preciso que você faça:
+1️⃣ Corrigir a logo
+Atualmente o arquivo logo.png não está sendo exibido no aplicativo.
+
+Verifique o caminho correto, a importação correta no React e garanta que o build do Vite não esteja ignorando ou mudando o caminho da imagem.
+
+2️⃣ Painel de Configurações
+Criar um painel onde seja possível editar as informações iniciais do formulário: nome, idade, peso, altura etc.
+
+Essas informações devem ser salvas no localStorage (ou outra solução leve no cliente) para que os dados dos usuários atuais não se percam.
+
+3️⃣ Exercícios com imagens ou GIFs
+Alterar a estrutura do JSON que armazena os exercícios para permitir um campo com o caminho para uma imagem ou gif.
+
+Permitir que ao criar ou editar um exercício, o usuário possa selecionar um arquivo (ou digitar o caminho) para ilustrar como é feito.
+
+Garanta que os arquivos fiquem salvos em uma pasta do projeto (ex.: /public/exercises-media/) e que o caminho relativo seja salvo no JSON.
+
+4️⃣ Menu com troca de idiomas
+No menu, adicionar a possibilidade de trocar entre os idiomas disponíveis.
+
+Além dos idiomas já existentes, adicionar suporte aos seguintes ingleses regionais:
+
+Inglês (África do Sul)
+
+Inglês (Quênia)
+
+Inglês (Gana)
+
+Use react-i18next e i18next para implementar.
+
+5️⃣ Importar CSV
+Implementar uma funcionalidade para importar um CSV gerado anteriormente pelo próprio aplicativo.
+
+O CSV deve atualizar as informações existentes sem apagar dados não inclusos no CSV.
+
+Preservar a integridade dos dados dos usuários existentes no navegador.
+
+6️⃣ Não apagar os dados dos usuários
+Todas as mudanças acima devem ser feitas de forma que os dados já salvos nos navegadores dos usuários (localStorage, sessionStorage, cookies ou IndexedDB) continuem intactos e funcionais.
+
+⚙️ Observações
+O projeto usa TypeScript, React, Vite no front e Express no backend.
+
+Já estão instalados react-i18next, react-hook-form, @tanstack/react-query e a suite @radix-ui.
+
+Use boas práticas, organização em componentes e mantenha o código consistente com o padrão atual do projeto.
+
+Se necessário, crie novas rotas no Express ou endpoints para suportar upload de imagens/gifs e importação de CSV.
+
+Por favor, produza os arquivos ou orientações necessárias para implementar essas alterações.
+Mantenha a compatibilidade com os navegadores modernos e com os dados já salvos dos usuários.
+Forneça o código atualizado dos trechos relevantes, as novas rotas (se houver) e as mudanças no front-end.
