@@ -1,0 +1,194 @@
+[
+  {
+    "id": "grilled-chicken",
+    "name": {
+      "en-NG": "Grilled Chicken Breast test",
+      "fr-CI": "Poitrine de Poulet Grillée",
+      "en-GH": "Grilled Chicken Breast",
+      "en-KE": "Grilled Chicken Breast",
+      "en-ZA": "Grilled Chicken Breast"
+    },
+    "calories": 165,
+    "protein": 31,
+    "carbs": 0,
+    "fat": 3.6,
+    "category": "dinner",
+    "image": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "preparation": {
+      "en-NG": "Season chicken breast with salt, pepper, and herbs. Preheat grill to medium-high heat. Grill for 6-8 minutes on each side until internal temperature reaches 165°F (74°C). Let rest for 5 minutes before serving.",
+      "fr-CI": "Assaisonnez la poitrine de poulet avec du sel, du poivre et des herbes. Préchauffez le grill à feu moyen-élevé. Grilllez pendant 6-8 minutes de chaque côté jusqu'à ce que la température interne atteigne 74°C. Laissez reposer 5 minutes avant de servir.",
+      "en-GH": "Season chicken breast with salt, pepper, and herbs. Grill for 6-8 minutes on each side until cooked through. Let rest before serving.",
+      "en-KE": "Season chicken breast with salt, pepper, and herbs. Grill for 6-8 minutes on each side until cooked through. Let rest before serving.",
+      "en-ZA": "Season chicken breast with salt, pepper, and herbs. Grill for 6-8 minutes on each side until cooked through. Let rest before serving."
+    },
+    "accessPlans": [1, 2, 3, 4]
+  },
+  {
+    "id": "quinoa-salad",
+    "name": {
+      "en-NG": "Mediterranean Quinoa Salad",
+      "fr-CI": "Salade de Quinoa Méditerranéenne",
+      "en-GH": "Mediterranean Quinoa Salad",
+      "en-KE": "Mediterranean Quinoa Salad",
+      "en-ZA": "Mediterranean Quinoa Salad"
+    },
+    "calories": 220,
+    "protein": 8,
+    "carbs": 35,
+    "fat": 6,
+    "category": "lunch",
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "preparation": {
+      "en-NG": "Rinse 1 cup quinoa and cook in 2 cups water for 15 minutes. Let cool. Mix with diced tomatoes, cucumber, red onion, olives, and feta cheese. Dress with olive oil, lemon juice, salt, and herbs. Chill for 30 minutes before serving.",
+      "fr-CI": "Rincez 1 tasse de quinoa et cuisez dans 2 tasses d'eau pendant 15 minutes. Laissez refroidir. Mélangez avec des tomates en dés, concombre, oignon rouge, olives et fromage feta. Assaisonnez avec huile d'olive, jus de citron, sel et herbes.",
+      "en-GH": "Cook quinoa, then mix with fresh vegetables, olives, and feta. Dress with olive oil and lemon juice.",
+      "en-KE": "Cook quinoa, then mix with fresh vegetables, olives, and feta. Dress with olive oil and lemon juice.",
+      "en-ZA": "Cook quinoa, then mix with fresh vegetables, olives, and feta. Dress with olive oil and lemon juice."
+    },
+    "accessPlans": [1, 2, 3, 4]
+  },
+  {
+    "id": "salmon-vegetables",
+    "name": {
+      "en-NG": "Baked Salmon with Roasted Vegetables",
+      "fr-CI": "Saumon Cuit avec Légumes Rôtis",
+      "en-GH": "Baked Salmon with Roasted Vegetables",
+      "en-KE": "Baked Salmon with Roasted Vegetables",
+      "en-ZA": "Baked Salmon with Roasted Vegetables"
+    },
+    "calories": 320,
+    "protein": 25,
+    "carbs": 15,
+    "fat": 18,
+    "category": "dinner",
+    "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "preparation": {
+      "en-NG": "Preheat oven to 400°F (200°C). Season salmon fillet with lemon, dill, salt, and pepper. Place on baking sheet with chopped broccoli, bell peppers, and zucchini drizzled with olive oil. Bake for 12-15 minutes until salmon flakes easily.",
+      "fr-CI": "Préchauffez le four à 200°C. Assaisonnez le filet de saumon avec citron, aneth, sel et poivre. Placez sur une plaque avec brocoli haché, poivrons et courgettes arrosés d'huile d'olive. Cuisez 12-15 minutes.",
+      "en-GH": "Season salmon and bake with mixed vegetables at 200°C for 12-15 minutes until cooked through.",
+      "en-KE": "Season salmon and bake with mixed vegetables at 200°C for 12-15 minutes until cooked through.",
+      "en-ZA": "Season salmon and bake with mixed vegetables at 200°C for 12-15 minutes until cooked through."
+    },
+    "accessPlans": [2, 3, 4]
+  },
+  {
+    "id": "greek-yogurt-berries",
+    "name": {
+      "en-NG": "Greek Yogurt with Mixed Berries",
+      "fr-CI": "Yaourt Grec aux Baies Mélangées",
+      "en-GH": "Greek Yogurt with Mixed Berries",
+      "en-KE": "Greek Yogurt with Mixed Berries",
+      "en-ZA": "Greek Yogurt with Mixed Berries"
+    },
+    "calories": 150,
+    "protein": 15,
+    "carbs": 18,
+    "fat": 2,
+    "category": "breakfast",
+    "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "preparation": {
+      "en-NG": "Place 1 cup plain Greek yogurt in a bowl. Top with 1/2 cup mixed fresh berries (blueberries, strawberries, raspberries). Drizzle with 1 tablespoon honey and sprinkle with chopped nuts if desired. Serve immediately.",
+      "fr-CI": "Placez 1 tasse de yaourt grec nature dans un bol. Garnissez avec 1/2 tasse de baies mélangées fraîches. Arrosez avec 1 cuillère à soupe de miel et saupoudrez de noix hachées si désiré.",
+      "en-GH": "Top Greek yogurt with fresh mixed berries and a drizzle of honey. Add nuts for extra crunch.",
+      "en-KE": "Top Greek yogurt with fresh mixed berries and a drizzle of honey. Add nuts for extra crunch.",
+      "en-ZA": "Top Greek yogurt with fresh mixed berries and a drizzle of honey. Add nuts for extra crunch."
+    },
+    "accessPlans": [1, 2, 3, 4]
+  },
+  {
+    "id": "sweet-potato-bowl",
+    "name": {
+      "en-NG": "Roasted Sweet Potato Buddha Bowl",
+      "fr-CI": "Bol Buddha Patate Douce Rôtie",
+      "en-GH": "Roasted Sweet Potato Buddha Bowl",
+      "en-KE": "Roasted Sweet Potato Buddha Bowl",
+      "en-ZA": "Roasted Sweet Potato Buddha Bowl"
+    },
+    "calories": 380,
+    "protein": 12,
+    "carbs": 55,
+    "fat": 14,
+    "category": "lunch",
+    "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "preparation": {
+      "en-NG": "Roast cubed sweet potato at 400°F (200°C) for 25 minutes. Arrange over quinoa base with chickpeas, avocado slices, spinach, and shredded carrots. Top with tahini dressing made from tahini, lemon juice, garlic, and water.",
+      "fr-CI": "Rôtissez la patate douce en cubes à 200°C pendant 25 minutes. Disposez sur une base de quinoa avec pois chiches, tranches d'avocat, épinards et carottes râpées. Garnissez avec vinaigrette tahini.",
+      "en-GH": "Roast sweet potato cubes and serve over quinoa with chickpeas, avocado, and greens. Drizzle with tahini dressing.",
+      "en-KE": "Roast sweet potato cubes and serve over quinoa with chickpeas, avocado, and greens. Drizzle with tahini dressing.",
+      "en-ZA": "Roast sweet potato cubes and serve over quinoa with chickpeas, avocado, and greens. Drizzle with tahini dressing."
+    },
+    "accessPlans": [2, 3, 4]
+  },
+  {
+    "id": "protein-smoothie",
+    "name": {
+      "en-NG": "Green Protein Smoothie",
+      "fr-CI": "Smoothie Protéiné Vert",
+      "en-GH": "Green Protein Smoothie",
+      "en-KE": "Green Protein Smoothie",
+      "en-ZA": "Green Protein Smoothie"
+    },
+    "calories": 280,
+    "protein": 20,
+    "carbs": 25,
+    "fat": 8,
+    "category": "breakfast",
+    "image": "https://images.unsplash.com/photo-1610970881699-44a5587cabec?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "preparation": {
+      "en-NG": "Blend 1 scoop vanilla protein powder, 1 cup spinach, 1/2 banana, 1/2 avocado, 1 cup almond milk, and ice cubes until smooth. Add honey to taste if needed. Pour into glass and serve immediately for best texture.",
+      "fr-CI": "Mélangez 1 mesure de poudre de protéine vanille, 1 tasse d'épinards, 1/2 banane, 1/2 avocat, 1 tasse de lait d'amande et glaçons jusqu'à consistance lisse. Servez immédiatement.",
+      "en-GH": "Blend protein powder with spinach, banana, avocado, and almond milk until smooth. Serve immediately.",
+      "en-KE": "Blend protein powder with spinach, banana, avocado, and almond milk until smooth. Serve immediately.",
+      "en-ZA": "Blend protein powder with spinach, banana, avocado, and almond milk until smooth. Serve immediately."
+    },
+    "accessPlans": [1, 2, 3, 4]
+  },
+  {
+    "id": "turkey-wrap",
+    "name": {
+      "en-NG": "Turkey and Vegetable Wrap",
+      "fr-CI": "Wrap Dinde et Légumes",
+      "en-GH": "Turkey and Vegetable Wrap",
+      "en-KE": "Turkey and Vegetable Wrap",
+      "en-ZA": "Turkey and Vegetable Wrap"
+    },
+    "calories": 290,
+    "protein": 22,
+    "carbs": 28,
+    "fat": 9,
+    "category": "lunch",
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "preparation": {
+      "en-NG": "Lay whole wheat tortilla flat. Spread 2 tbsp hummus evenly. Layer with 4 oz sliced turkey, lettuce, tomato, cucumber, and bell peppers. Roll tightly, tucking in sides. Cut in half diagonally and serve.",
+      "fr-CI": "Étalez la tortilla de blé entier. Étalez 2 c. à soupe d'houmous uniformément. Superposez avec 115g de dinde tranchée, laitue, tomate, concombre et poivrons. Roulez fermement et coupez en diagonale.",
+      "en-GH": "Spread hummus on tortilla, add sliced turkey and fresh vegetables. Roll tightly and cut in half.",
+      "en-KE": "Spread hummus on tortilla, add sliced turkey and fresh vegetables. Roll tightly and cut in half.",
+      "en-ZA": "Spread hummus on tortilla, add sliced turkey and fresh vegetables. Roll tightly and cut in half."
+    },
+    "accessPlans": [1, 2, 3, 4]
+  },
+  {
+    "id": "chia-pudding",
+    "name": {
+      "en-NG": "Vanilla Chia Seed Pudding",
+      "fr-CI": "Pudding aux Graines de Chia Vanille",
+      "en-GH": "Vanilla Chia Seed Pudding",
+      "en-KE": "Vanilla Chia Seed Pudding",
+      "en-ZA": "Vanilla Chia Seed Pudding"
+    },
+    "calories": 180,
+    "protein": 6,
+    "carbs": 15,
+    "fat": 11,
+    "category": "snack",
+    "image": "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "preparation": {
+      "en-NG": "Mix 3 tbsp chia seeds with 1 cup coconut milk, 1 tsp vanilla extract, and 1 tbsp maple syrup. Stir well and refrigerate for at least 4 hours or overnight. Top with fresh berries before serving.",
+      "fr-CI": "Mélangez 3 c. à soupe de graines de chia avec 1 tasse de lait de coco, 1 c. à thé d'extrait de vanille et 1 c. à soupe de sirop d'érable. Réfrigérez au moins 4 heures. Garnissez de baies fraîches.",
+      "en-GH": "Mix chia seeds with coconut milk and vanilla. Refrigerate overnight until thick. Top with berries.",
+      "en-KE": "Mix chia seeds with coconut milk and vanilla. Refrigerate overnight until thick. Top with berries.",
+      "en-ZA": "Mix chia seeds with coconut milk and vanilla. Refrigerate overnight until thick. Top with berries."
+    },
+    "accessPlans": [2, 3, 4]
+  }
+]

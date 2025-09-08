@@ -1,0 +1,54 @@
+
+[
+  {
+    "id": "what-is-app",
+    "question": {
+      "en-NG": "What is this fitness app?",
+      "fr-CI": "Qu'est-ce que cette application de fitness ?",
+      "en-GH": "What is this fitness app?",
+      "en-KE": "What is this fitness app?",
+      "en-ZA": "What is this fitness app?"
+    },
+    "answer": {
+      "en-NG": "This is a comprehensive fitness and nutrition tracking app designed to help you achieve your health goals through personalized workout plans, meal tracking, and progress monitoring.",
+      "fr-CI": "Il s'agit d'une application complète de suivi de fitness et de nutrition conçue pour vous aider à atteindre vos objectifs de santé grâce à des plans d'entraînement personnalisés, au suivi des repas et au suivi des progrès.",
+      "en-GH": "This is a comprehensive fitness and nutrition tracking app designed to help you achieve your health goals through personalised workout plans, meal tracking, and progress monitoring.",
+      "en-KE": "This is a comprehensive fitness and nutrition tracking app designed to help you achieve your health goals through personalised workout plans, meal tracking, and progress monitoring.",
+      "en-ZA": "This is a comprehensive fitness and nutrition tracking app designed to help you achieve your health goals through personalised workout plans, meal tracking, and progress monitoring."
+    }
+  },
+  {
+    "id": "how-to-track-meals",
+    "question": {
+      "en-NG": "How do I track my meals?",
+      "fr-CI": "Comment puis-je suivre mes repas ?",
+      "en-GH": "How do I track my meals?",
+      "en-KE": "How do I track my meals?",
+      "en-ZA": "How do I track my meals?"
+    },
+    "answer": {
+      "en-NG": "You can track your meals by going to the Meals tab and clicking 'Log Meal'. Select the meal you ate and the app will automatically calculate your calorie intake for the day.",
+      "fr-CI": "Vous pouvez suivre vos repas en allant dans l'onglet Repas et en cliquant sur 'Enregistrer le repas'. Sélectionnez le repas que vous avez mangé et l'application calculera automatiquement votre apport calorique pour la journée.",
+      "en-GH": "You can track your meals by going to the Meals tab and clicking 'Log Meal'. Select the meal you ate and the app will automatically calculate your calorie intake for the day.",
+      "en-KE": "You can track your meals by going to the Meals tab and clicking 'Log Meal'. Select the meal you ate and the app will automatically calculate your calorie intake for the day.",
+      "en-ZA": "You can track your meals by going to the Meals tab and clicking 'Log Meal'. Select the meal you ate and the app will automatically calculate your calorie intake for the day."
+    }
+  },
+  {
+    "id": "subscription-plans",
+    "question": {
+      "en-NG": "What subscription plans are available?",
+      "fr-CI": "Quels plans d'abonnement sont disponibles ?",
+      "en-GH": "What subscription plans are available?",
+      "en-KE": "What subscription plans are available?",
+      "en-ZA": "What subscription plans are available?"
+    },
+    "answer": {
+      "en-NG": "We offer Free, Basic, Premium, and Pro plans. Each plan provides different levels of access to courses, challenges, and premium features. Check the Settings page for more details.",
+      "fr-CI": "Nous proposons des plans Gratuit, Basique, Premium et Pro. Chaque plan offre différents niveaux d'accès aux cours, défis et fonctionnalités premium. Consultez la page Paramètres pour plus de détails.",
+      "en-GH": "We offer Free, Basic, Premium, and Pro plans. Each plan provides different levels of access to courses, challenges, and premium features. Check the Settings page for more details.",
+      "en-KE": "We offer Free, Basic, Premium, and Pro plans. Each plan provides different levels of access to courses, challenges, and premium features. Check the Settings page for more details.",
+      "en-ZA": "We offer Free, Basic, Premium, and Pro plans. Each plan provides different levels of access to courses, challenges, and premium features. Check the Settings page for more details."
+    }
+  }
+]

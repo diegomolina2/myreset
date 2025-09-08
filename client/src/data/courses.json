@@ -1,0 +1,383 @@
+
+[
+  {
+    "id": "fitness-basics",
+    "title": {
+      "en-NG": "Fitness Basics",
+      "fr-CI": "Bases de Fitness",
+      "en-GH": "Fitness Basics",
+      "en-KE": "Fitness Basics",
+      "en-ZA": "Fitness Basics"
+    },
+    "description": {
+      "en-NG": "Learn the fundamentals of fitness and exercise",
+      "fr-CI": "Apprenez les fondamentaux du fitness et de l'exercice",
+      "en-GH": "Learn the fundamentals of fitness and exercise",
+      "en-KE": "Learn the fundamentals of fitness and exercise",
+      "en-ZA": "Learn the fundamentals of fitness and exercise"
+    },
+    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80",
+    "accessPlans": [1, 2, 3, 4],
+    "totalLessons": 6,
+    "modules": [
+      {
+        "id": "module-1",
+        "title": {
+          "en-NG": "Getting Started",
+          "fr-CI": "Commencer",
+          "en-GH": "Getting Started",
+          "en-KE": "Getting Started",
+          "en-ZA": "Getting Started"
+        },
+        "lessons": [
+          {
+            "id": "lesson-1",
+            "title": {
+              "en-NG": "Introduction to Fitness",
+              "fr-CI": "Introduction au Fitness",
+              "en-GH": "Introduction to Fitness",
+              "en-KE": "Introduction to Fitness",
+              "en-ZA": "Introduction to Fitness"
+            },
+            "type": "video",
+            "duration": "10 min",
+            "videoUrl": "https://example.com/video1.mp4",
+            "description": {
+              "en-NG": "Learn the basics of fitness and why it's important for your health",
+              "fr-CI": "Apprenez les bases du fitness et pourquoi c'est important pour votre santé",
+              "en-GH": "Learn the basics of fitness and why it's important for your health",
+              "en-KE": "Learn the basics of fitness and why it's important for your health",
+              "en-ZA": "Learn the basics of fitness and why it's important for your health"
+            }
+          },
+          {
+            "id": "lesson-2",
+            "title": {
+              "en-NG": "Setting Your Goals",
+              "fr-CI": "Définir vos Objectifs",
+              "en-GH": "Setting Your Goals",
+              "en-KE": "Setting Your Goals",
+              "en-ZA": "Setting Your Goals"
+            },
+            "type": "text",
+            "duration": "15 min",
+            "description": {
+              "en-NG": "How to set realistic and achievable fitness goals",
+              "fr-CI": "Comment définir des objectifs de fitness réalistes et réalisables",
+              "en-GH": "How to set realistic and achievable fitness goals",
+              "en-KE": "How to set realistic and achievable fitness goals",
+              "en-ZA": "How to set realistic and achievable fitness goals"
+            },
+            "content": {
+              "text": {
+                "en-NG": "Setting clear, measurable goals is crucial for fitness success. Start with SMART goals - Specific, Measurable, Achievable, Relevant, and Time-bound. For example, instead of 'I want to get fit', try 'I want to run 5km in under 30 minutes within 3 months'.",
+                "fr-CI": "Définir des objectifs clairs et mesurables est crucial pour le succès en fitness. Commencez avec des objectifs SMART - Spécifiques, Mesurables, Atteignables, Pertinents et Temporels.",
+                "en-GH": "Setting clear, measurable goals is crucial for fitness success. Start with SMART goals - Specific, Measurable, Achievable, Relevant, and Time-bound.",
+                "en-KE": "Setting clear, measurable goals is crucial for fitness success. Start with SMART goals - Specific, Measurable, Achievable, Relevant, and Time-bound.",
+                "en-ZA": "Setting clear, measurable goals is crucial for fitness success. Start with SMART goals - Specific, Measurable, Achievable, Relevant, and Time-bound."
+              }
+            }
+          },
+          {
+            "id": "lesson-3",
+            "title": {
+              "en-NG": "Basic Exercise Types",
+              "fr-CI": "Types d'Exercices de Base",
+              "en-GH": "Basic Exercise Types",
+              "en-KE": "Basic Exercise Types",
+              "en-ZA": "Basic Exercise Types"
+            },
+            "type": "video",
+            "duration": "12 min",
+            "videoUrl": "https://example.com/video3.mp4",
+            "description": {
+              "en-NG": "Overview of cardio, strength training, and flexibility exercises",
+              "fr-CI": "Aperçu des exercices cardio, de musculation et de flexibilité",
+              "en-GH": "Overview of cardio, strength training, and flexibility exercises",
+              "en-KE": "Overview of cardio, strength training, and flexibility exercises",
+              "en-ZA": "Overview of cardio, strength training, and flexibility exercises"
+            }
+          }
+        ]
+      },
+      {
+        "id": "module-2",
+        "title": {
+          "en-NG": "Building Your Routine",
+          "fr-CI": "Construire votre Routine",
+          "en-GH": "Building Your Routine",
+          "en-KE": "Building Your Routine",
+          "en-ZA": "Building Your Routine"
+        },
+        "lessons": [
+          {
+            "id": "lesson-4",
+            "title": {
+              "en-NG": "Creating a Weekly Schedule",
+              "fr-CI": "Créer un Horaire Hebdomadaire",
+              "en-GH": "Creating a Weekly Schedule",
+              "en-KE": "Creating a Weekly Schedule",
+              "en-ZA": "Creating a Weekly Schedule"
+            },
+            "type": "text",
+            "duration": "20 min",
+            "description": {
+              "en-NG": "Learn how to structure your weekly workout routine",
+              "fr-CI": "Apprenez à structurer votre routine d'entraînement hebdomadaire",
+              "en-GH": "Learn how to structure your weekly workout routine",
+              "en-KE": "Learn how to structure your weekly workout routine",
+              "en-ZA": "Learn how to structure your weekly workout routine"
+            },
+            "content": {
+              "text": {
+                "en-NG": "A good weekly routine balances different types of exercise. Aim for 3-4 days of strength training, 2-3 days of cardio, and daily stretching. Remember to include rest days for recovery.",
+                "fr-CI": "Une bonne routine hebdomadaire équilibre différents types d'exercices. Visez 3-4 jours de musculation, 2-3 jours de cardio et des étirements quotidiens.",
+                "en-GH": "A good weekly routine balances different types of exercise. Aim for 3-4 days of strength training, 2-3 days of cardio, and daily stretching.",
+                "en-KE": "A good weekly routine balances different types of exercise. Aim for 3-4 days of strength training, 2-3 days of cardio, and daily stretching.",
+                "en-ZA": "A good weekly routine balances different types of exercise. Aim for 3-4 days of strength training, 2-3 days of cardio, and daily stretching."
+              }
+            }
+          },
+          {
+            "id": "lesson-5",
+            "title": {
+              "en-NG": "Warm-up and Cool-down",
+              "fr-CI": "Échauffement et Récupération",
+              "en-GH": "Warm-up and Cool-down",
+              "en-KE": "Warm-up and Cool-down",
+              "en-ZA": "Warm-up and Cool-down"
+            },
+            "type": "video",
+            "duration": "8 min",
+            "videoUrl": "https://example.com/video5.mp4",
+            "description": {
+              "en-NG": "Essential warm-up and cool-down techniques",
+              "fr-CI": "Techniques essentielles d'échauffement et de récupération",
+              "en-GH": "Essential warm-up and cool-down techniques",
+              "en-KE": "Essential warm-up and cool-down techniques",
+              "en-ZA": "Essential warm-up and cool-down techniques"
+            }
+          },
+          {
+            "id": "lesson-6",
+            "title": {
+              "en-NG": "Tracking Your Progress",
+              "fr-CI": "Suivre vos Progrès",
+              "en-GH": "Tracking Your Progress",
+              "en-KE": "Tracking Your Progress",
+              "en-ZA": "Tracking Your Progress"
+            },
+            "type": "text",
+            "duration": "18 min",
+            "description": {
+              "en-NG": "Methods to track and measure your fitness progress",
+              "fr-CI": "Méthodes pour suivre et mesurer vos progrès en fitness",
+              "en-GH": "Methods to track and measure your fitness progress",
+              "en-KE": "Methods to track and measure your fitness progress",
+              "en-ZA": "Methods to track and measure your fitness progress"
+            },
+            "content": {
+              "text": {
+                "en-NG": "Tracking progress keeps you motivated and helps adjust your routine. Use measurements, photos, performance metrics, and how you feel. Keep a workout log and take progress photos monthly.",
+                "fr-CI": "Suivre les progrès vous garde motivé et aide à ajuster votre routine. Utilisez des mesures, photos, métriques de performance et comment vous vous sentez.",
+                "en-GH": "Tracking progress keeps you motivated and helps adjust your routine. Use measurements, photos, performance metrics, and how you feel.",
+                "en-KE": "Tracking progress keeps you motivated and helps adjust your routine. Use measurements, photos, performance metrics, and how you feel.",
+                "en-ZA": "Tracking progress keeps you motivated and helps adjust your routine. Use measurements, photos, performance metrics, and how you feel."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nutrition-guide",
+    "title": {
+      "en-NG": "Nutrition Guide",
+      "fr-CI": "Guide Nutritionnel",
+      "en-GH": "Nutrition Guide",
+      "en-KE": "Nutrition Guide",
+      "en-ZA": "Nutrition Guide"
+    },
+    "description": {
+      "en-NG": "Complete guide to healthy eating and nutrition",
+      "fr-CI": "Guide complet pour une alimentation saine et la nutrition",
+      "en-GH": "Complete guide to healthy eating and nutrition",
+      "en-KE": "Complete guide to healthy eating and nutrition",
+      "en-ZA": "Complete guide to healthy eating and nutrition"
+    },
+    "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2353&q=80",
+    "accessPlans": [2, 3, 4],
+    "totalLessons": 6,
+    "modules": [
+      {
+        "id": "module-1",
+        "title": {
+          "en-NG": "Nutrition Basics",
+          "fr-CI": "Bases de la Nutrition",
+          "en-GH": "Nutrition Basics",
+          "en-KE": "Nutrition Basics",
+          "en-ZA": "Nutrition Basics"
+        },
+        "lessons": [
+          {
+            "id": "lesson-1",
+            "title": {
+              "en-NG": "Understanding Macronutrients",
+              "fr-CI": "Comprendre les Macronutriments",
+              "en-GH": "Understanding Macronutrients",
+              "en-KE": "Understanding Macronutrients",
+              "en-ZA": "Understanding Macronutrients"
+            },
+            "type": "text",
+            "duration": "15 min",
+            "description": {
+              "en-NG": "Learn about proteins, carbohydrates, and fats",
+              "fr-CI": "Apprenez sur les protéines, glucides et lipides",
+              "en-GH": "Learn about proteins, carbohydrates, and fats",
+              "en-KE": "Learn about proteins, carbohydrates, and fats",
+              "en-ZA": "Learn about proteins, carbohydrates, and fats"
+            },
+            "content": {
+              "text": {
+                "en-NG": "Macronutrients are the main nutrients your body needs in large amounts. Proteins build and repair tissues, carbohydrates provide energy, and fats support hormone production and nutrient absorption.",
+                "fr-CI": "Les macronutriments sont les principaux nutriments dont votre corps a besoin en grandes quantités. Les protéines construisent et réparent les tissus.",
+                "en-GH": "Macronutrients are the main nutrients your body needs in large amounts. Proteins build and repair tissues, carbohydrates provide energy.",
+                "en-KE": "Macronutrients are the main nutrients your body needs in large amounts. Proteins build and repair tissues, carbohydrates provide energy.",
+                "en-ZA": "Macronutrients are the main nutrients your body needs in large amounts. Proteins build and repair tissues, carbohydrates provide energy."
+              }
+            }
+          },
+          {
+            "id": "lesson-2",
+            "title": {
+              "en-NG": "Micronutrients and Vitamins",
+              "fr-CI": "Micronutriments et Vitamines",
+              "en-GH": "Micronutrients and Vitamins",
+              "en-KE": "Micronutrients and Vitamins",
+              "en-ZA": "Micronutrients and Vitamins"
+            },
+            "type": "video",
+            "duration": "12 min",
+            "videoUrl": "https://example.com/nutrition-video2.mp4",
+            "description": {
+              "en-NG": "Essential vitamins and minerals for optimal health",
+              "fr-CI": "Vitamines et minéraux essentiels pour une santé optimale",
+              "en-GH": "Essential vitamins and minerals for optimal health",
+              "en-KE": "Essential vitamins and minerals for optimal health",
+              "en-ZA": "Essential vitamins and minerals for optimal health"
+            }
+          },
+          {
+            "id": "lesson-3",
+            "title": {
+              "en-NG": "Hydration and Water Intake",
+              "fr-CI": "Hydratation et Consommation d'Eau",
+              "en-GH": "Hydration and Water Intake",
+              "en-KE": "Hydration and Water Intake",
+              "en-ZA": "Hydration and Water Intake"
+            },
+            "type": "text",
+            "duration": "10 min",
+            "description": {
+              "en-NG": "The importance of proper hydration for health and performance",
+              "fr-CI": "L'importance d'une hydratation appropriée pour la santé et la performance",
+              "en-GH": "The importance of proper hydration for health and performance",
+              "en-KE": "The importance of proper hydration for health and performance",
+              "en-ZA": "The importance of proper hydration for health and performance"
+            },
+            "content": {
+              "text": {
+                "en-NG": "Water makes up about 60% of your body weight and is essential for every bodily function. Aim for 8-10 glasses daily, more if you're active or in hot weather.",
+                "fr-CI": "L'eau représente environ 60% de votre poids corporel et est essentielle pour chaque fonction corporelle. Visez 8-10 verres par jour.",
+                "en-GH": "Water makes up about 60% of your body weight and is essential for every bodily function. Aim for 8-10 glasses daily.",
+                "en-KE": "Water makes up about 60% of your body weight and is essential for every bodily function. Aim for 8-10 glasses daily.",
+                "en-ZA": "Water makes up about 60% of your body weight and is essential for every bodily function. Aim for 8-10 glasses daily."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "module-2",
+        "title": {
+          "en-NG": "Meal Planning",
+          "fr-CI": "Planification des Repas",
+          "en-GH": "Meal Planning",
+          "en-KE": "Meal Planning",
+          "en-ZA": "Meal Planning"
+        },
+        "lessons": [
+          {
+            "id": "lesson-4",
+            "title": {
+              "en-NG": "Creating Balanced Meals",
+              "fr-CI": "Créer des Repas Équilibrés",
+              "en-GH": "Creating Balanced Meals",
+              "en-KE": "Creating Balanced Meals",
+              "en-ZA": "Creating Balanced Meals"
+            },
+            "type": "video",
+            "duration": "18 min",
+            "videoUrl": "https://example.com/nutrition-video4.mp4",
+            "description": {
+              "en-NG": "How to structure meals for optimal nutrition",
+              "fr-CI": "Comment structurer les repas pour une nutrition optimale",
+              "en-GH": "How to structure meals for optimal nutrition",
+              "en-KE": "How to structure meals for optimal nutrition",
+              "en-ZA": "How to structure meals for optimal nutrition"
+            }
+          },
+          {
+            "id": "lesson-5",
+            "title": {
+              "en-NG": "Portion Control",
+              "fr-CI": "Contrôle des Portions",
+              "en-GH": "Portion Control",
+              "en-KE": "Portion Control",
+              "en-ZA": "Portion Control"
+            },
+            "type": "text",
+            "duration": "14 min",
+            "description": {
+              "en-NG": "Understanding proper portion sizes for weight management",
+              "fr-CI": "Comprendre les bonnes tailles de portions pour la gestion du poids",
+              "en-GH": "Understanding proper portion sizes for weight management",
+              "en-KE": "Understanding proper portion sizes for weight management",
+              "en-ZA": "Understanding proper portion sizes for weight management"
+            },
+            "content": {
+              "text": {
+                "en-NG": "Portion control is key to maintaining a healthy weight. Use your hand as a guide: palm-size for protein, fist-size for vegetables, cupped hand for carbs, and thumb-size for fats.",
+                "fr-CI": "Le contrôle des portions est essentiel pour maintenir un poids santé. Utilisez votre main comme guide.",
+                "en-GH": "Portion control is key to maintaining a healthy weight. Use your hand as a guide for proper portions.",
+                "en-KE": "Portion control is key to maintaining a healthy weight. Use your hand as a guide for proper portions.",
+                "en-ZA": "Portion control is key to maintaining a healthy weight. Use your hand as a guide for proper portions."
+              }
+            }
+          },
+          {
+            "id": "lesson-6",
+            "title": {
+              "en-NG": "Meal Prep Strategies",
+              "fr-CI": "Stratégies de Préparation des Repas",
+              "en-GH": "Meal Prep Strategies",
+              "en-KE": "Meal Prep Strategies",
+              "en-ZA": "Meal Prep Strategies"
+            },
+            "type": "video",
+            "duration": "22 min",
+            "videoUrl": "https://example.com/nutrition-video6.mp4",
+            "description": {
+              "en-NG": "Efficient meal preparation techniques for busy lifestyles",
+              "fr-CI": "Techniques efficaces de préparation de repas pour modes de vie occupés",
+              "en-GH": "Efficient meal preparation techniques for busy lifestyles",
+              "en-KE": "Efficient meal preparation techniques for busy lifestyles",
+              "en-ZA": "Efficient meal preparation techniques for busy lifestyles"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

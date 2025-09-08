@@ -1,0 +1,165 @@
+[
+  {
+    "id": "14-day-slim-down",
+    "name": {
+      "en-NG": "14-Day Slim Down Challenge",
+      "fr-CI": "Défi Minceur 14 Jours",
+      "en-GH": "14-Day Slim Down Challenge",
+      "en-KE": "14-Day Slim Down Challenge",
+      "en-ZA": "14-Day Slim Down Challenge"
+    },
+    "description": {
+      "en-NG": "A quick-start weight loss plan with daily tasks to boost metabolism and burn fat.",
+      "fr-CI": "Un plan de perte de poids rapide avec des tâches quotidiennes pour stimuler le métabolisme et brûler les graisses.",
+      "en-GH": "A quick-start weight loss plan with daily tasks to boost metabolism and burn fat.",
+      "en-KE": "A quick-start weight loss plan with daily tasks to boost metabolism and burn fat.",
+      "en-ZA": "A quick-start weight loss plan with daily tasks to boost metabolism and burn fat."
+    },
+    "days": 14,
+    "accessPlans": [2, 3, 4],
+    "dailyTasks": [
+      { "day": 1, "tasks": ["Log your weight", "Drink at least 2L of water", "Complete 15 min of Jumping Jacks", "Eat Jollof Rice for lunch", "Mark your mood"] },
+      { "day": 2, "tasks": ["Drink 2.5L of water", "Complete 20 squats", "Eat Egusi Soup for dinner", "Avoid sugar", "Log your mood"] },
+      { "day": 3, "tasks": ["Log your weight", "Do 10 push-ups", "Eat Moi Moi for breakfast", "Drink green tea", "Mark your mood"] },
+      { "day": 4, "tasks": ["Drink 2L water", "Complete 1 min plank", "Eat Grilled Tilapia with Attiéké", "Avoid junk food", "Log your mood"] },
+      { "day": 5, "tasks": ["Log your weight", "Complete 15 lunges", "Eat Akara snack", "Drink herbal tea", "Mark your mood"] },
+      { "day": 6, "tasks": ["Drink 2.5L water", "Complete 20 jumping jacks", "Eat Peanut Stew for dinner", "Avoid added sugars", "Log your mood"] },
+      { "day": 7, "tasks": ["Log your weight", "Complete 10 burpees", "Eat Kelewele as snack", "Drink lemon water", "Mark your mood"] },
+      { "day": 8, "tasks": ["Drink 2L water", "Complete 20 squats", "Eat Alloco for lunch", "Avoid processed foods", "Log your mood"] },
+      { "day": 9, "tasks": ["Log your weight", "Complete 15 push-ups", "Eat Abacha (African Salad) for dinner", "Drink green tea", "Mark your mood"] },
+      { "day": 10, "tasks": ["Drink 2.5L water", "Complete 1 min plank", "Eat Yam Porridge", "Avoid sugar", "Log your mood"] },
+      { "day": 11, "tasks": ["Log your weight", "Complete 10 lunges", "Eat Cassava Leaves Stew", "Drink herbal tea", "Mark your mood"] },
+      { "day": 12, "tasks": ["Drink 2L water", "Complete 20 jumping jacks", "Eat Banku & Okro for lunch", "Avoid junk food", "Log your mood"] },
+      { "day": 13, "tasks": ["Log your weight", "Complete 10 burpees", "Eat Fufu with Okra Soup", "Drink lemon water", "Mark your mood"] },
+      { "day": 14, "tasks": ["Drink 2.5L water", "Complete 30 min mixed exercises", "Eat Grilled Chicken with Attiéké", "Reflect on progress", "Celebrate your success!"] }
+    ]
+  },
+  {
+    "id": "7-day-detox",
+    "name": {
+      "en-NG": "7-Day Detox",
+      "fr-CI": "Détox 7 Jours",
+      "en-GH": "7-Day Detox",
+      "en-KE": "7-Day Detox",
+      "en-ZA": "7-Day Detox"
+    },
+    "description": {
+      "en-NG": "Cleanse your body and reset your habits in just 7 days.",
+      "fr-CI": "Nettoyez votre corps et réinitialisez vos habitudes en seulement 7 jours.",
+      "en-GH": "Cleanse your body and reset your habits in just 7 days.",
+      "en-KE": "Cleanse your body and reset your habits in just 7 days.",
+      "en-ZA": "Cleanse your body and reset your habits in just 7 days."
+    },
+    "days": 7,
+    "accessPlans": [1, 2, 3, 4],
+    "dailyTasks": [
+      { "day": 1, "tasks": ["Start day with lemon water", "Eat clean breakfast (Puff-Puff)", "Avoid sugar", "Complete 15 min light exercise", "Reflect on your progress"] },
+      { "day": 2, "tasks": ["Start day with warm water", "Eat Coconut Rice for lunch", "Avoid caffeine", "Complete 20 squats", "Log your mood"] },
+      { "day": 3, "tasks": ["Drink herbal tea", "Eat Beans & Fried Plantain", "Avoid processed foods", "Complete 1 min plank", "Reflect on your progress"] },
+      { "day": 4, "tasks": ["Start with lemon water", "Eat Garri with soup", "Avoid sugar", "Complete 10 push-ups", "Log your mood"] },
+      { "day": 5, "tasks": ["Drink 2L water", "Eat Jollof Rice", "Avoid alcohol", "Complete 20 lunges", "Reflect on your progress"] },
+      { "day": 6, "tasks": ["Start day with warm water", "Eat Attiéké with Fish", "Avoid sugar", "Complete 15 jumping jacks", "Log your mood"] },
+      { "day": 7, "tasks": ["Drink herbal tea", "Eat Peanut Stew", "Complete 30 min light exercise", "Reflect and plan next steps", "Celebrate your detox success!"] }
+    ]
+  },
+  {
+    "id": "30-day-no-sugar",
+    "name": {
+      "en-NG": "30-Day No Sugar",
+      "fr-CI": "30 jours sans sucre",
+      "en-GH": "30-Day No Sugar",
+      "en-KE": "30-Day No Sugar",
+      "en-ZA": "30-Day No Sugar"
+    },
+    "description": {
+      "en-NG": "Break your sugar habit and boost your health in 30 days.",
+      "fr-CI": "Briser votre habitude de sucre et améliorer votre santé en 30 jours.",
+      "en-GH": "Break your sugar habit and boost your health in 30 days.",
+      "en-KE": "Break your sugar habit and boost your health in 30 days.",
+      "en-ZA": "Break your sugar habit and boost your health in 30 days."
+    },
+    "days": 30,
+    "accessPlans": [3, 4],
+    "dailyTasks": [
+      { "day": 1, "tasks": ["Log weight", "Drink 2L water", "Replace soda with water", "Eat grilled fish", "Mark your mood"] },
+      { "day": 2, "tasks": ["Eat fruit instead of dessert", "Do 15 min of light cardio", "Drink lemon water", "Log your mood"] },
+      { "day": 3, "tasks": ["Avoid packaged snacks", "Drink herbal tea", "Eat fresh salad", "Log your mood"] },
+      { "day": 4, "tasks": ["Log weight", "Drink 2.5L water", "Eat Peanut Stew", "Walk for 20 minutes", "Mark your mood"] },
+      { "day": 5, "tasks": ["Eat nuts as snack", "Avoid bread", "Do 10 squats", "Log your mood"] },
+      { "day": 6, "tasks": ["Drink green tea", "Eat cassava with vegetables", "Avoid alcohol", "Mark your mood"] },
+      { "day": 7, "tasks": ["Log weight", "Cook at home only", "Do 15 min stretching", "Log your mood"] },
+      { "day": 8, "tasks": ["Drink 2L water", "Eat more vegetables", "Avoid juice", "Log your mood"] },
+      { "day": 9, "tasks": ["Log weight", "Eat grilled chicken", "Complete 20 push-ups", "Mark your mood"] },
+      { "day": 10, "tasks": ["Eat beans & plantain", "Drink lemon water", "Avoid processed food", "Log your mood"] },
+      { "day": 11, "tasks": ["Log weight", "Eat jollof rice", "Do 15 squats", "Log your mood"] },
+      { "day": 12, "tasks": ["Avoid chocolate", "Drink green tea", "Eat fruit salad", "Log your mood"] },
+      { "day": 13, "tasks": ["Log weight", "Do yoga for 20 min", "Eat peanut stew", "Log your mood"] },
+      { "day": 14, "tasks": ["Drink 2.5L water", "Avoid fried foods", "Eat steamed vegetables", "Log your mood"] },
+      { "day": 15, "tasks": ["Log weight", "Eat home-cooked meal", "Do 15 push-ups", "Mark your mood"] },
+      { "day": 16, "tasks": ["Avoid pastries", "Eat grilled tilapia", "Walk 20 min", "Log your mood"] },
+      { "day": 17, "tasks": ["Log weight", "Drink herbal tea", "Eat fufu & okra", "Log your mood"] },
+      { "day": 18, "tasks": ["Eat yam porridge", "Avoid soda", "Stretch 15 min", "Log your mood"] },
+      { "day": 19, "tasks": ["Log weight", "Drink lemon water", "Eat fresh salad", "Log your mood"] },
+      { "day": 20, "tasks": ["Eat cassava leaves stew", "Do squats & lunges", "Log your mood"] },
+      { "day": 21, "tasks": ["Log weight", "Drink green tea", "Eat grilled chicken", "Log your mood"] },
+      { "day": 22, "tasks": ["Avoid sugar drinks", "Eat banku & okro", "Do plank for 1 min", "Log your mood"] },
+      { "day": 23, "tasks": ["Log weight", "Drink 2L water", "Eat peanut stew", "Log your mood"] },
+      { "day": 24, "tasks": ["Eat grilled fish", "Walk 20 min", "Avoid candy", "Log your mood"] },
+      { "day": 25, "tasks": ["Log weight", "Drink herbal tea", "Eat moi moi", "Log your mood"] },
+      { "day": 26, "tasks": ["Eat fresh fruits", "Do yoga", "Avoid biscuits", "Log your mood"] },
+      { "day": 27, "tasks": ["Log weight", "Eat jollof rice", "Drink green tea", "Log your mood"] },
+      { "day": 28, "tasks": ["Avoid desserts", "Eat abacha", "Do 20 squats", "Log your mood"] },
+      { "day": 29, "tasks": ["Log weight", "Eat grilled chicken", "Walk 20 min", "Log your mood"] },
+      { "day": 30, "tasks": ["Drink 2.5L water", "Eat home-cooked meal", "Reflect and celebrate success!", "Log your mood"] }
+    ]
+  },
+  {
+    "id": "28-day-full-body-reset",
+    "name": {
+      "en-NG": "28-Day Full Body Reset",
+      "fr-CI": "Réinitialisation complète du corps en 28 jours",
+      "en-GH": "28-Day Full Body Reset",
+      "en-KE": "28-Day Full Body Reset",
+      "en-ZA": "28-Day Full Body Reset"
+    },
+    "description": {
+      "en-NG": "Complete body transformation with comprehensive daily tasks.",
+      "fr-CI": "Transformation corporelle complète avec des tâches quotidiennes complètes.",
+      "en-GH": "Complete body transformation with comprehensive daily tasks.",
+      "en-KE": "Complete body transformation with comprehensive daily tasks.",
+      "en-ZA": "Complete body transformation with comprehensive daily tasks."
+    },
+    "days": 28,
+    "accessPlans": [3, 4],
+    "dailyTasks": [
+      { "day": 1, "tasks": ["Log weight and measurements", "Drink 2L water", "Complete 10 push-ups", "Eat balanced breakfast", "Plan your week"] },
+      { "day": 2, "tasks": ["Morning stretching routine", "Drink herbal tea", "Complete 20 squats", "Eat protein-rich lunch", "Log your mood"] },
+      { "day": 3, "tasks": ["Log weight", "Drink 2.5L water", "Do 15 lunges", "Eat vegetable-rich dinner", "Practice gratitude"] },
+      { "day": 4, "tasks": ["Complete 1 min plank", "Drink green tea", "Eat whole grains", "Avoid processed foods", "Log your mood"] },
+      { "day": 5, "tasks": ["Log weight", "Complete 15 jumping jacks", "Drink 2L water", "Eat lean protein", "Reflect on progress"] },
+      { "day": 6, "tasks": ["Do yoga session", "Eat colorful vegetables", "Drink herbal tea", "Practice mindfulness", "Log your mood"] },
+      { "day": 7, "tasks": ["Log measurements", "Complete full body workout", "Eat balanced meals", "Plan next week", "Celebrate weekly success"] },
+      { "day": 8, "tasks": ["Morning meditation", "Drink 2.5L water", "Complete 25 squats", "Eat healthy fats", "Journal your thoughts"] },
+      { "day": 9, "tasks": ["Log weight", "Do strength training", "Eat antioxidant-rich foods", "Avoid sugar", "Log your mood"] },
+      { "day": 10, "tasks": ["Complete cardio session", "Drink green smoothie", "Eat whole foods", "Practice breathing exercises", "Reflect on habits"] },
+      { "day": 11, "tasks": ["Log weight", "Do flexibility training", "Drink 2L water", "Eat mindfully", "Practice gratitude"] },
+      { "day": 12, "tasks": ["Complete HIIT workout", "Eat balanced breakfast", "Drink herbal tea", "Avoid processed foods", "Log your mood"] },
+      { "day": 13, "tasks": ["Log weight", "Do resistance training", "Eat protein-rich meals", "Drink 2.5L water", "Practice self-care"] },
+      { "day": 14, "tasks": ["Log measurements", "Complete active recovery", "Eat nutritious foods", "Plan healthy week", "Celebrate bi-weekly progress"] },
+      { "day": 15, "tasks": ["Morning workout", "Drink detox water", "Eat clean meals", "Practice mindfulness", "Log your mood"] },
+      { "day": 16, "tasks": ["Log weight", "Do core strengthening", "Eat whole grains", "Avoid sugary drinks", "Reflect on journey"] },
+      { "day": 17, "tasks": ["Complete endurance training", "Drink green tea", "Eat lean proteins", "Practice stress management", "Log your mood"] },
+      { "day": 18, "tasks": ["Log weight", "Do balance exercises", "Eat colorful vegetables", "Drink 2L water", "Practice gratitude"] },
+      { "day": 19, "tasks": ["Complete strength circuit", "Eat healthy fats", "Drink herbal tea", "Avoid processed foods", "Log your mood"] },
+      { "day": 20, "tasks": ["Log weight", "Do mobility work", "Eat nutrient-dense foods", "Practice mindful eating", "Reflect on changes"] },
+      { "day": 21, "tasks": ["Log measurements", "Complete full body workout", "Eat balanced meals", "Plan final week", "Celebrate three weeks"] },
+      { "day": 22, "tasks": ["Morning yoga", "Drink 2.5L water", "Eat clean breakfast", "Practice meditation", "Log your mood"] },
+      { "day": 23, "tasks": ["Log weight", "Do high-intensity workout", "Eat protein-rich foods", "Avoid sugar", "Practice self-reflection"] },
+      { "day": 24, "tasks": ["Complete cardio session", "Drink green smoothie", "Eat whole foods", "Practice breathing", "Log your mood"] },
+      { "day": 25, "tasks": ["Log weight", "Do strength training", "Eat mindfully", "Drink herbal tea", "Practice gratitude"] },
+      { "day": 26, "tasks": ["Complete conditioning workout", "Eat balanced nutrition", "Drink 2L water", "Avoid processed foods", "Log your mood"] },
+      { "day": 27, "tasks": ["Log weight", "Do recovery exercises", "Eat celebrating meal", "Practice mindfulness", "Reflect on transformation"] },
+      { "day": 28, "tasks": ["Log final measurements", "Complete celebration workout", "Eat balanced meals", "Plan future goals", "Celebrate full transformation!"] }
+    ]
+  }
+]

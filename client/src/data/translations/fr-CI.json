@@ -1,0 +1,256 @@
+{
+  "welcome": {
+    "title": "Tracker de Bien-être",
+    "subtitle": "Votre voyage vers une meilleure santé commence ici",
+    "chooseLanguage": "Choisissez votre langue",
+    "english": "English (Nigeria)",
+    "french": "Français (Côte d'Ivoire)"
+  },
+  "onboarding": {
+    "title": "Configurez votre profil",
+    "step": "Étape {{current}} sur {{total}}",
+    "continue": "Continuer",
+    "back": "Retour",
+    "finish": "Terminer la configuration",
+    "fields": {
+      "name": "Quel est votre nom ?",
+      "namePlaceholder": "Entrez votre nom",
+      "age": "Quel âge avez-vous ?",
+      "agePlaceholder": "Âge",
+      "height": "Taille (cm)",
+      "heightPlaceholder": "Taille en cm",
+      "weight": "Poids actuel (kg)",
+      "weightPlaceholder": "Poids en kg",
+      "targetWeight": "Poids cible (kg)",
+      "targetWeightPlaceholder": "Poids cible en kg",
+      "gender": "Genre",
+      "genderOptions": {
+        "male": "Homme",
+        "female": "Femme",
+        "other": "Autre"
+      },
+      "exerciseLevel": "Fréquence d'exercice",
+      "exerciseOptions": {
+        "sedentary": "Sédentaire (peu ou pas d'exercice)",
+        "light": "Léger (1-3 jours/semaine)",
+        "moderate": "Modéré (3-5 jours/semaine)",
+        "active": "Actif (6-7 jours/semaine)",
+        "very_active": "Très actif (2x/jour ou exercice intense)"
+      },
+      "diet": "Préférences alimentaires",
+      "dietOptions": {
+        "none": "Aucune restriction",
+        "vegetarian": "Végétarien",
+        "vegan": "Végan",
+        "halal": "Halal",
+        "kosher": "Casher",
+        "gluten_free": "Sans gluten",
+        "dairy_free": "Sans lactose"
+      }
+    }
+  },
+  "dashboard": {
+    "greeting": "Bonjour, {{name}} !",
+    "subtitle": "Prêt à atteindre vos objectifs aujourd'hui ?",
+    "stats": {
+      "currentWeight": "Poids actuel",
+      "waterToday": "Eau aujourd'hui",
+      "streak": "Série",
+      "badges": "Badges",
+      "days": "jours"
+    },
+    "activeChallenges": "Défis actifs",
+    "todayMealSuggestions": "Suggestions de repas du jour",
+    "quickExercise": "Exercice rapide",
+    "weightProgress": "Progression du poids",
+    "recentAchievements": "Réussites récentes"
+  },
+  "challenges": {
+    "title": "Défis",
+    "startChallenge": "Commencer le défi",
+    "continueChallenge": "Continuer le défi",
+    "viewDetails": "Voir les détails du défi",
+    "dayOf": "Jour {{current}} sur {{total}}",
+    "markDone": "Marquer comme terminé",
+    "completed": "Terminé",
+    "taskTypes": {
+      "water": "Boire de l'eau",
+      "exercise": "Faire de l'exercice",
+      "meal": "Manger sainement",
+      "mood": "Noter l'humeur",
+      "weight": "Noter le poids"
+    },
+    "challengesTitle": "Défis",
+    "activeChallengesLabel": "Actifs",
+    "completedChallengesLabel": "Complétés",
+    "availableChallengesLabel": "Disponibles",
+    "daysLabel": "jours",
+    "completeChallengeLabel": "Défi Complet",
+    "startChallengeButton": "Commencer le défi",
+    "restartChallengeButton": "Redémarrer le défi",
+    "daysCompletedLabel": "jours complétés",
+    "completedBadge": "Complété",
+    "tabAvailable": "Disponibles",
+    "tabActive": "Actifs",
+    "tabCompleted": "Complétés",
+    "noAvailableChallenges": "Aucun défi disponible pour le moment.",
+    "noActiveChallenges": "Vous n'avez aucun défi actif.",
+    "noCompletedChallenges": "Aucun défi complété pour le moment.",
+    "upgradeMessage": "Votre accès a expiré. Mettez à jour votre plan pour continuer.",
+    "upgradeAction": "Mettre à jour le plan"
+  },
+  "exercises": {
+    "title": "Bibliothèque d'exercices",
+    "categories": {
+      "all": "Tous",
+      "Light": "Léger",
+      "Moderate": "Modéré",
+      "Advanced": "Avancé"
+    },
+    "startExercise": "Commencer l'exercice",
+    "addToFavorites": "Ajouter aux favoris",
+    "removeFromFavorites": "Retirer des favoris",
+    "duration": "Durée",
+    "reps": "Répétitions",
+    "rest": "Repos"
+  },
+  "meals": {
+    "title": "Bibliothèque de repas",
+    "subtitle": "Découvrez des idées de repas sains et délicieux avec des informations nutritionnelles détaillées",
+    "filter": "Filtrer par catégorie",
+    "all": "Tous",
+    "categories": {
+      "all": "Toutes les Catégories",
+      "breakfast": "Petit-déjeuner",
+      "lunch": "Déjeuner",
+      "dinner": "Dîner",
+      "snack": "Collations"
+    },
+    "calories": "calories",
+    "protein": "Protéines",
+    "carbs": "Glucides",
+    "fats": "Lipides",
+    "addToFavorites": "Ajouter aux favoris",
+    "removeFromFavorites": "Retirer des favoris",
+    "logMeal": "Enregistrer le repas",
+    "search": "Rechercher des repas...",
+    "unlockedFrom": "Débloqué à partir du plan {{plan}}",
+    "upgradeRequired": "Mise à niveau requise",
+    "plans": {
+      "Free": "Gratuit",
+      "Momentum": "Momentum",
+      "Premium": "Premium",
+      "Pro": "Pro"
+    },
+    "ingredients": "Ingrédients",
+    "preparation": "Instructions de préparation"
+  },
+  "progress": {
+    "title": "Progression",
+    "weightProgress": "Progression du poids",
+    "moodTracking": "Suivi de l'humeur",
+    "waterIntake": "Consommation d'eau",
+    "weeklyView": "Vue hebdomadaire",
+    "monthlyView": "Vue mensuelle",
+    "exportData": "Exporter les données",
+    "timeFilters": {
+      "1week": "1 Semaine",
+      "1month": "1 Mois",
+      "3months": "3 Mois",
+      "6months": "6 Mois",
+      "max": "Tout le Temps"
+    },
+    "charts": {
+      "weightProgress": "Progression du Poids",
+      "waterIntake": "Consommation d'Eau",
+      "calorieIntake": "Apport Calorique"
+    }
+  },
+  "badges": {
+    "title": "Badges et réussites",
+    "unlocked": "Débloqué",
+    "locked": "Verrouillé",
+    "unlockedAt": "Débloqué le {{date}}",
+    "badgeTypes": {
+      "first_step": "Premier pas",
+      "hydrated": "Hydraté",
+      "consistent": "Consistant",
+      "no_sugar_hero": "Héros sans sucre",
+      "halfway": "À mi-chemin"
+    }
+  },
+  "navigation": {
+    "home": "Accueil",
+    "challenges": "Défis",
+    "exercises": "Exercices",
+    "meals": "Repas",
+    "progress": "Progrès",
+    "badges": "Badges",
+    "courses": "Cours",
+    "faq": "FAQ",
+    "settings": "Paramètres"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "profile": "Profil",
+    "language": "Langue",
+    "theme": "Thème",
+    "save": "Sauvegarder",
+    "cancel": "Annuler",
+    "planInfo": "Informations du Plan",
+    "activePlan": "Plan Actif",
+    "timeRemaining": "Temps Restant",
+    "daysRemaining": "jours restants",
+    "unlimitedAccess": "Accès Illimité",
+    "planExpiringSoon": "Votre plan expire bientôt!",
+    "noPlanActive": "Aucun plan actif",
+    "activatePlan": "Activer un plan pour accéder aux défis",
+    "deactivatePlan": "Désactiver le Plan",
+    "featuresIncluded": "Fonctionnalités Incluses:"
+  },
+  "common": {
+    "save": "Sauvegarder",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "close": "Fermer",
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès",
+    "kg": "kg",
+    "liters": "L",
+    "minutes": "min",
+    "calories": "cal"
+  },
+  "cultural": {
+    "slimDown": "Mincir",
+    "chop": "Manger",
+    "motivationalQuotes": [
+      "De petits pas quotidiens mènent à de grands changements annuels.",
+      "Votre santé est votre richesse.",
+      "Chaque choix sain est un pas vers votre meilleur moi.",
+      "Progrès, pas perfection.",
+      "Croyez en vous et en votre parcours."
+    ]
+  },
+  "courses": {
+    "title": "Mes Cours",
+    "subtitle": "Accédez à vos cours et continuez à apprendre",
+    "progress": "Progrès",
+    "lessons": "leçons",
+    "startCourse": "Commencer le Cours",
+    "continueCourse": "Continuer le Cours",
+    "upgrade": "Améliorer"
+  },
+  "plans": {
+    "kickstart": "Démarrage",
+    "momentum": "Élan",
+    "thrive": "Prospérer",
+    "total": "Total",
+    "expired": "Plan Expiré",
+    "expiringSoon": "Votre plan expire bientôt!",
+    "upgradeRequired": "Mise à Niveau Requise",
+    "upgradeMessage": "Pour accéder à ce contenu, passez à un plan supérieur.",
+    "features": "Fonctionnalités Incluses:"
+  }
+}

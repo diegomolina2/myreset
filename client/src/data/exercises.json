@@ -1,0 +1,617 @@
+[
+  {
+    "id": "jumping-jacks",
+    "name": {
+      "en-NG": "Jumping Jacks",
+      "fr-CI": "Jumping Jacks",
+      "en-GH": "Jumping Jacks",
+      "en-KE": "Jumping Jacks",
+      "en-ZA": "Jumping Jacks"
+    },
+    "category": "Light",
+    "duration": "1 min",
+    "rest": "30 sec",
+    "description": {
+      "en-NG": "Exercício cardiovascular completo ótimo para aquecimento e queima de calorias. Mantenha os movimentos controlados e o ritmo constante.",
+      "fr-CI": "Exercice cardiovasculaire complet excellent pour l'échauffement et brûler des calories. Maintenez les mouvements contrôlés et le rythme constant.",
+      "en-GH": "Complete cardiovascular exercise great for warming up and burning calories. Keep movements controlled and rhythm constant.",
+      "en-KE": "Complete cardiovascular exercise great for warming up and burning calories. Keep movements controlled and rhythm constant.",
+      "en-ZA": "Complete cardiovascular exercise great for warming up and burning calories. Keep movements controlled and rhythm constant."
+    },
+    "instructions": {
+      "en-NG": "1. Fique em pé com os pés juntos e braços ao lado do corpo\n2. Pule abrindo as pernas para os lados\n3. Simultaneamente levante os braços acima da cabeça\n4. Retorne à posição inicial pulando\n5. Repita o movimento de forma ritmada",
+      "fr-CI": "1. Tenez-vous debout avec les pieds joints et les bras sur le côté du corps\n2. Sautez en ouvrant les jambes sur les côtés\n3. Levez simultanément les bras au-dessus de la tête\n4. Revenez à la position initiale en sautant\n5. Répétez le mouvement de manière rythmée",
+      "en-GH": "1. Stand with feet together and arms at your sides\n2. Jump spreading legs to the sides\n3. Simultaneously raise arms above your head\n4. Return to starting position by jumping\n5. Repeat the movement rhythmically",
+      "en-KE": "1. Stand with feet together and arms at your sides\n2. Jump spreading legs to the sides\n3. Simultaneously raise arms above your head\n4. Return to starting position by jumping\n5. Repeat the movement rhythmically",
+      "en-ZA": "1. Stand with feet together and arms at your sides\n2. Jump spreading legs to the sides\n3. Simultaneously raise arms above your head\n4. Return to starting position by jumping\n5. Repeat the movement rhythmically"
+    },
+    "media": "/exercises-media/jumping-jacks.gif",
+    "accessPlans": [1, 2, 3, 4]
+  },
+  {
+    "id": "push-ups",
+    "name": {
+      "en-NG": "Flexões",
+      "fr-CI": "Pompes",
+      "en-GH": "Push-Ups",
+      "en-KE": "Push-Ups",
+      "en-ZA": "Push-Ups"
+    },
+    "category": "Moderate",
+    "reps": "10–15",
+    "rest": "45 sec",
+    "description": {
+      "en-NG": "Exercício de força para parte superior do corpo, focando peito, ombros e tríceps.",
+      "fr-CI": "Exercice de force pour le haut du corps, ciblant la poitrine, les épaules et les triceps.",
+      "en-GH": "Upper body strength exercise targeting chest, shoulders and triceps.",
+      "en-KE": "Upper body strength exercise targeting chest, shoulders and triceps.",
+      "en-ZA": "Upper body strength exercise targeting chest, shoulders and triceps."
+    },
+    "instructions": {
+      "en-NG": "1. Deite-se de bruços no chão\n2. Coloque as mãos no chão, na largura dos ombros\n3. Mantenha o corpo reto da cabeça aos pés\n4. Empurre o corpo para cima estendendo os braços\n5. Desça controladamente até quase tocar o peito no chão\n6. Repita o movimento",
+      "fr-CI": "1. Allongez-vous face contre terre\n2. Placez vos mains au sol, à la largeur des épaules\n3. Gardez le corps droit de la tête aux pieds\n4. Poussez le corps vers le haut en étendant les bras\n5. Descendez de manière contrôlée jusqu'à presque toucher la poitrine au sol\n6. Répétez le mouvement",
+      "en-GH": "1. Lie face down on the floor\n2. Place hands on the ground, shoulder-width apart\n3. Keep body straight from head to feet\n4. Push body up by extending arms\n5. Lower in a controlled manner until chest almost touches the ground\n6. Repeat the movement",
+      "en-KE": "1. Lie face down on the floor\n2. Place hands on the ground, shoulder-width apart\n3. Keep body straight from head to feet\n4. Push body up by extending arms\n5. Lower in a controlled manner until chest almost touches the ground\n6. Repeat the movement",
+      "en-ZA": "1. Lie face down on the floor\n2. Place hands on the ground, shoulder-width apart\n3. Keep body straight from head to feet\n4. Push body up by extending arms\n5. Lower in a controlled manner until chest almost touches the ground\n6. Repeat the movement"
+    },
+    "media": "/exercises-media/push-ups.gif",
+    "accessPlans": [1, 2, 3, 4]
+  },
+  {
+    "id": "squats",
+    "name": {
+      "en-NG": "Agachamentos",
+      "fr-CI": "Squats",
+      "en-GH": "Squats",
+      "en-KE": "Squats",
+      "en-ZA": "Squats"
+    },
+    "category": "Moderate",
+    "reps": "15–20",
+    "rest": "45 sec",
+    "description": {
+      "en-NG": "Exercício para membros inferiores focando quadríceps, glúteos e posteriores de coxa.",
+      "fr-CI": "Exercice pour les membres inférieurs ciblant les quadriceps, les fessiers et les ischio-jambiers.",
+      "en-GH": "Lower body exercise targeting quadriceps, glutes and hamstrings.",
+      "en-KE": "Lower body exercise targeting quadriceps, glutes and hamstrings.",
+      "en-ZA": "Lower body exercise targeting quadriceps, glutes and hamstrings."
+    },
+    "instructions": {
+      "en-NG": "1. Fique em pé com os pés na largura dos ombros\n2. Mantenha as costas retas e olhe para frente\n3. Desça dobrando os joelhos como se fosse sentar\n4. Desça até as coxas ficarem paralelas ao chão\n5. Empurre pelos calcanhares para subir\n6. Retorne à posição inicial",
+      "fr-CI": "1. Tenez-vous debout avec les pieds à la largeur des épaules\n2. Gardez le dos droit et regardez devant\n3. Descendez en pliant les genoux comme si vous alliez vous asseoir\n4. Descendez jusqu'à ce que les cuisses soient parallèles au sol\n5. Poussez par les talons pour remonter\n6. Revenez à la position initiale",
+      "en-GH": "1. Stand with feet shoulder-width apart\n2. Keep back straight and look forward\n3. Lower by bending knees as if sitting down\n4. Lower until thighs are parallel to the ground\n5. Push through heels to rise\n6. Return to starting position",
+      "en-KE": "1. Stand with feet shoulder-width apart\n2. Keep back straight and look forward\n3. Lower by bending knees as if sitting down\n4. Lower until thighs are parallel to the ground\n5. Push through heels to rise\n6. Return to starting position",
+      "en-ZA": "1. Stand with feet shoulder-width apart\n2. Keep back straight and look forward\n3. Lower by bending knees as if sitting down\n4. Lower until thighs are parallel to the ground\n5. Push through heels to rise\n6. Return to starting position"
+    },
+    "media": "/exercises-media/squats.gif",
+    "accessPlans": [1, 2, 3, 4]
+  },
+  {
+    "id": "lunges",
+    "name": {
+      "en-NG": "Lunges",
+      "fr-CI": "Fentes",
+      "en-GH": "Lunges",
+      "en-KE": "Lunges",
+      "en-ZA": "Lunges"
+    },
+    "category": "Moderate",
+    "reps": "10 each leg",
+    "rest": "45 sec",
+    "description": {
+      "en-NG": "Unilateral leg exercise that improves balance and leg strength.",
+      "fr-CI": "Exercice unilatéral pour les jambes qui améliore l'équilibre et la force des jambes.",
+      "en-GH": "Unilateral leg exercise that improves balance and leg strength.",
+      "en-KE": "Unilateral leg exercise that improves balance and leg strength.",
+      "en-ZA": "Unilateral leg exercise that improves balance and leg strength."
+    },
+    "media": "/exercises-media/lunges.gif",
+    "accessPlans": [2, 3, 4]
+  },
+  {
+    "id": "plank",
+    "name": {
+      "en-NG": "Plank",
+      "fr-CI": "Planche",
+      "en-GH": "Plank",
+      "en-KE": "Plank",
+      "en-ZA": "Plank"
+    },
+    "category": "Moderate",
+    "duration": "30–60 sec",
+    "rest": "30 sec",
+    "description": {
+      "en-NG": "Core strengthening exercise that engages multiple muscle groups.",
+      "fr-CI": "Exercice de renforcement du tronc qui sollicite plusieurs groupes musculaires.",
+      "en-GH": "Core strengthening exercise that engages multiple muscle groups.",
+      "en-KE": "Core strengthening exercise that engages multiple muscle groups.",
+      "en-ZA": "Core strengthening exercise that engages multiple muscle groups."
+    },
+    "media": "/exercises-media/plank.gif",
+    "accessPlans": [2, 3, 4]
+  },
+  {
+    "id": "burpees",
+    "name": {
+      "en-NG": "Burpees",
+      "fr-CI": "Burpees",
+      "en-GH": "Burpees",
+      "en-KE": "Burpees",
+      "en-ZA": "Burpees"
+    },
+    "category": "Advanced",
+    "reps": "10",
+    "rest": "60 sec",
+    "description": {
+      "en-NG": "Full-body high-intensity exercise combining squat, plank, and jump.",
+      "fr-CI": "Exercice de haute intensité pour tout le corps combinant squat, planche et saut.",
+      "en-GH": "Full-body high-intensity exercise combining squat, plank, and jump.",
+      "en-KE": "Full-body high-intensity exercise combining squat, plank, and jump.",
+      "en-ZA": "Full-body high-intensity exercise combining squat, plank, and jump."
+    },
+    "media": "/exercises-media/burpees.gif",
+    "accessPlans": [3, 4]
+  },
+  {
+    "id": "mountain-climbers",
+    "name": {
+      "en-NG": "Mountain Climbers",
+      "fr-CI": "Mountain Climbers",
+      "en-GH": "Mountain Climbers",
+      "en-KE": "Mountain Climbers",
+      "en-ZA": "Mountain Climbers"
+    },
+    "category": "Advanced",
+    "duration": "1 min",
+    "rest": "45 sec",
+    "description": {
+      "en-NG": "High-intensity cardio exercise that strengthens core and legs.",
+      "fr-CI": "Exercice cardio de haute intensité qui renforce le tronc et les jambes.",
+      "en-GH": "High-intensity cardio exercise that strengthens core and legs.",
+      "en-KE": "High-intensity cardio exercise that strengthens core and legs.",
+      "en-ZA": "High-intensity cardio exercise that strengthens core and legs."
+    },
+    "media": "/exercises-media/mountain-climbers.gif",
+    "accessPlans": [3, 4]
+  },
+  {
+    "id": "high-knees",
+    "name": {
+      "en-NG": "High Knees",
+      "fr-CI": "Montées de genoux",
+      "en-GH": "High Knees",
+      "en-KE": "High Knees",
+      "en-ZA": "High Knees"
+    },
+    "category": "Light",
+    "duration": "1 min",
+    "rest": "30 sec",
+    "description": {
+      "en-NG": "Cardio exercise that improves coordination and leg strength.",
+      "fr-CI": "Exercice cardio qui améliore la coordination et la force des jambes.",
+      "en-GH": "Cardio exercise that improves coordination and leg strength.",
+      "en-KE": "Cardio exercise that improves coordination and leg strength.",
+      "en-ZA": "Cardio exercise that improves coordination and leg strength."
+    },
+    "media": "/exercises-media/high-knees.gif",
+    "accessPlans": [1, 2, 3, 4]
+  },
+  {
+    "id": "wall-sit",
+    "name": {
+      "en-NG": "Wall Sit",
+      "fr-CI": "Chaise",
+      "en-GH": "Wall Sit",
+      "en-KE": "Wall Sit",
+      "en-ZA": "Wall Sit"
+    },
+    "category": "Light",
+    "duration": "30–60 sec",
+    "rest": "30 sec",
+    "description": {
+      "en-NG": "Isometric exercise that strengthens quadriceps and glutes.",
+      "fr-CI": "Exercice isométrique qui renforce les quadriceps et les fessiers.",
+      "en-GH": "Isometric exercise that strengthens quadriceps and glutes.",
+      "en-KE": "Isometric exercise that strengthens quadriceps and glutes.",
+      "en-ZA": "Isometric exercise that strengthens quadriceps and glutes."
+    },
+    "media": "/exercises-media/wall-sit.gif",
+    "accessPlans": [1, 2, 3, 4]
+  },
+  {
+    "id": "arm-circles",
+    "name": {
+      "en-NG": "Arm Circles",
+      "fr-CI": "Cercles de bras",
+      "en-GH": "Arm Circles",
+      "en-KE": "Arm Circles",
+      "en-ZA": "Arm Circles"
+    },
+    "category": "Light",
+    "duration": "1 min",
+    "rest": "30 sec",
+    "description": {
+      "en-NG": "Simple warm-up exercise for shoulder mobility and activation.",
+      "fr-CI": "Exercice d'échauffement simple pour la mobilité et l'activation des épaules.",
+      "en-GH": "Simple warm-up exercise for shoulder mobility and activation.",
+      "en-KE": "Simple warm-up exercise for shoulder mobility and activation.",
+      "en-ZA": "Simple warm-up exercise for shoulder mobility and activation."
+    },
+    "media": "/exercises-media/arm-circles.gif",
+    "accessPlans": [1, 2, 3, 4]
+  },
+  {
+    "id": "side-plank",
+    "name": {
+      "en-NG": "Side Plank",
+      "fr-CI": "Planche latérale",
+      "en-GH": "Side Plank",
+      "en-KE": "Side Plank",
+      "en-ZA": "Side Plank"
+    },
+    "category": "Moderate",
+    "duration": "30–60 sec each side",
+    "rest": "30 sec",
+    "description": {
+      "en-NG": "Core exercise that targets obliques and improves stability.",
+      "fr-CI": "Exercice de base qui cible les obliques et améliore la stabilité.",
+      "en-GH": "Core exercise that targets obliques and improves stability.",
+      "en-KE": "Core exercise that targets obliques and improves stability.",
+      "en-ZA": "Core exercise that targets obliques and improves stability."
+    },
+    "media": "/exercises-media/side-plank.gif",
+    "accessPlans": [2, 3, 4]
+  },
+  {
+    "id": "bicycle-crunches",
+    "name": {
+      "en-NG": "Bicycle Crunches",
+      "fr-CI": "Crunchs bicyclette",
+      "en-GH": "Bicycle Crunches",
+      "en-KE": "Bicycle Crunches",
+      "en-ZA": "Bicycle Crunches"
+    },
+    "category": "Moderate",
+    "reps": "20",
+    "rest": "45 sec",
+    "description": {
+      "en-NG": "Abdominal exercise that targets rectus abdominis and obliques.",
+      "fr-CI": "Exercice abdominal qui cible le grand droit de l'abdomen et les obliques.",
+      "en-GH": "Abdominal exercise that targets rectus abdominis and obliques.",
+      "en-KE": "Abdominal exercise that targets rectus abdominis and obliques.",
+      "en-ZA": "Abdominal exercise that targets rectus abdominis and obliques."
+    },
+    "media": "/exercises-media/bicycle-crunches.gif",
+    "accessPlans": [2, 3, 4]
+  },
+  {
+    "id": "glute-bridges",
+    "name": {
+      "en-NG": "Glute Bridges",
+      "fr-CI": "Ponts fessiers",
+      "en-GH": "Glute Bridges",
+      "en-KE": "Glute Bridges",
+      "en-ZA": "Glute Bridges"
+    },
+    "category": "Light",
+    "reps": "15",
+    "rest": "30 sec",
+    "description": {
+      "en-NG": "Lower body exercise that strengthens glutes and hamstrings.",
+      "fr-CI": "Exercice du bas du corps qui renforce les fessiers et les ischio-jambiers.",
+      "en-GH": "Lower body exercise that strengthens glutes and hamstrings.",
+      "en-KE": "Lower body exercise that strengthens glutes and hamstrings.",
+      "en-ZA": "Lower body exercise that strengthens glutes and hamstrings."
+    },
+    "media": "/exercises-media/glute-bridges.gif",
+    "accessPlans": [1, 2, 3, 4]
+  },
+  {
+    "id": "step-ups",
+    "name": {
+      "en-NG": "Step-Ups",
+      "fr-CI": "Montées sur step",
+      "en-GH": "Step-Ups",
+      "en-KE": "Step-Ups",
+      "en-ZA": "Step-Ups"
+    },
+    "category": "Moderate",
+    "reps": "10 each leg",
+    "rest": "45 sec",
+    "description": {
+      "en-NG": "Functional exercise that improves leg strength and balance.",
+      "fr-CI": "Exercice fonctionnel qui améliore la force et l'équilibre des jambes.",
+      "en-GH": "Functional exercise that improves leg strength and balance.",
+      "en-KE": "Functional exercise that improves leg strength and balance.",
+      "en-ZA": "Functional exercise that improves leg strength and balance."
+    },
+    "media": "/exercises-media/step-ups.gif",
+    "accessPlans": [2, 3, 4]
+  },
+  {
+    "id": "skater-jumps",
+    "name": {
+      "en-NG": "Skater Jumps",
+      "fr-CI": "Sauts de patineur",
+      "en-GH": "Skater Jumps",
+      "en-KE": "Skater Jumps",
+      "en-ZA": "Skater Jumps"
+    },
+    "category": "Advanced",
+    "duration": "1 min",
+    "rest": "45 sec",
+    "description": {
+      "en-NG": "Lateral movement exercise that improves agility and leg power.",
+      "fr-CI": "Exercice de mouvement latéral qui améliore l'agilité et la puissance des jambes.",
+      "en-GH": "Lateral movement exercise that improves agility and leg power.",
+      "en-KE": "Lateral movement exercise that improves agility and leg power.",
+      "en-ZA": "Lateral movement exercise that improves agility and leg power."
+    },
+    "media": "/exercises-media/skater-jumps.gif",
+    "accessPlans": [3, 4]
+  },
+  {
+    "id": "tricep-dips",
+    "name": {
+      "en-NG": "Tricep Dips",
+      "fr-CI": "Dips triceps",
+      "en-GH": "Tricep Dips",
+      "en-KE": "Tricep Dips",
+      "en-ZA": "Tricep Dips"
+    },
+    "category": "Moderate",
+    "reps": "10–15",
+    "rest": "45 sec",
+    "description": {
+      "en-NG": "Upper body exercise targeting triceps using body weight.",
+      "fr-CI": "Exercice du haut du corps ciblant les triceps en utilisant le poids du corps.",
+      "en-GH": "Upper body exercise targeting triceps using body weight.",
+      "en-KE": "Upper body exercise targeting triceps using body weight.",
+      "en-ZA": "Upper body exercise targeting triceps using body weight."
+    },
+    "media": "/exercises-media/tricep-dips.gif",
+    "accessPlans": [2, 3, 4]
+  },
+  {
+    "id": "flutter-kicks",
+    "name": {
+      "en-NG": "Flutter Kicks",
+      "fr-CI": "Battements de jambes",
+      "en-GH": "Flutter Kicks",
+      "en-KE": "Flutter Kicks",
+      "en-ZA": "Flutter Kicks"
+    },
+    "category": "Advanced",
+    "duration": "1 min",
+    "rest": "30 sec",
+    "description": {
+      "en-NG": "Core exercise that targets lower abdominals and hip flexors.",
+      "fr-CI": "Exercice de base qui cible les abdominaux inférieurs et les fléchisseurs de la hanche.",
+      "en-GH": "Core exercise that targets lower abdominals and hip flexors.",
+      "en-KE": "Core exercise that targets lower abdominals and hip flexors.",
+      "en-ZA": "Core exercise that targets lower abdominals and hip flexors."
+    },
+    "media": "/exercises-media/flutter-kicks.gif",
+    "accessPlans": [3, 4]
+  },
+  {
+    "id": "calf-raises",
+    "name": {
+      "en-NG": "Calf Raises",
+      "fr-CI": "Relevés de mollets",
+      "en-GH": "Calf Raises",
+      "en-KE": "Calf Raises",
+      "en-ZA": "Calf Raises"
+    },
+    "category": "Light",
+    "reps": "20",
+    "rest": "30 sec",
+    "description": {
+      "en-NG": "Lower leg exercise that strengthens calf muscles.",
+      "fr-CI": "Exercice pour le bas des jambes qui renforce les muscles du mollet.",
+      "en-GH": "Lower leg exercise that strengthens calf muscles.",
+      "en-KE": "Lower leg exercise that strengthens calf muscles.",
+      "en-ZA": "Lower leg exercise that strengthens calf muscles."
+    },
+    "media": "/exercises-media/calf-raises.gif",
+    "accessPlans": [1, 2, 3, 4]
+  },
+  {
+    "id": "side-lunges",
+    "name": {
+      "en-NG": "Side Lunges",
+      "fr-CI": "Fentes latérales",
+      "en-GH": "Side Lunges",
+      "en-KE": "Side Lunges",
+      "en-ZA": "Side Lunges"
+    },
+    "category": "Moderate",
+    "reps": "10 each side",
+    "rest": "45 sec",
+    "description": {
+      "en-NG": "Lateral movement exercise that targets inner and outer thighs.",
+      "fr-CI": "Exercice de mouvement latéral qui cible l'intérieur et l'extérieur des cuisses.",
+      "en-GH": "Lateral movement exercise that targets inner and outer thighs.",
+      "en-KE": "Lateral movement exercise that targets inner and outer thighs.",
+      "en-ZA": "Lateral movement exercise that targets inner and outer thighs."
+    },
+    "media": "/exercises-media/side-lunges.gif",
+    "accessPlans": [2, 3, 4]
+  },
+  {
+    "id": "bear-crawl",
+    "name": {
+      "en-NG": "Bear Crawl",
+      "fr-CI": "Marche de l'ours",
+      "en-GH": "Bear Crawl",
+      "en-KE": "Bear Crawl",
+      "en-ZA": "Bear Crawl"
+    },
+    "category": "Advanced",
+    "duration": "30 sec",
+    "rest": "60 sec",
+    "description": {
+      "en-NG": "Full-body exercise that improves coordination and strength.",
+      "fr-CI": "Exercice pour tout le corps qui améliore la coordination et la force.",
+      "en-GH": "Full-body exercise that improves coordination and strength.",
+      "en-KE": "Full-body exercise that improves coordination and strength.",
+      "en-ZA": "Full-body exercise that improves coordination and strength."
+    },
+    "media": "/exercises-media/bear-crawl.gif",
+    "accessPlans": [3, 4]
+  },
+  {
+    "id": "knee-push-ups",
+    "name": {
+      "en-NG": "Knee Push-Ups",
+      "fr-CI": "Pompes sur les genoux",
+      "en-GH": "Knee Push-Ups",
+      "en-KE": "Knee Push-Ups",
+      "en-ZA": "Knee Push-Ups"
+    },
+    "category": "Light",
+    "reps": "12–15",
+    "rest": "30 sec",
+    "description": {
+      "en-NG": "Modified push-up for beginners focusing on chest and arms.",
+      "fr-CI": "Pompe modifiée pour les débutants ciblant la poitrine et les bras.",
+      "en-GH": "Modified push-up for beginners focusing on chest and arms.",
+      "en-KE": "Modified push-up for beginners focusing on chest and arms.",
+      "en-ZA": "Modified push-up for beginners focusing on chest and arms."
+    },
+    "media": "/exercises-media/knee-push-ups.gif",
+    "accessPlans": [1, 2, 3, 4]
+  },
+  {
+    "id": "march-in-place",
+    "name": {
+      "en-NG": "March in Place",
+      "fr-CI": "Marche sur place",
+      "en-GH": "March in Place",
+      "en-KE": "March in Place",
+      "en-ZA": "March in Place"
+    },
+    "category": "Light",
+    "duration": "2 min",
+    "rest": "30 sec",
+    "description": {
+      "en-NG": "Gentle cardio movement ideal for warming up or cool down.",
+      "fr-CI": "Mouvement cardio doux idéal pour l'échauffement ou la récupération.",
+      "en-GH": "Gentle cardio movement ideal for warming up or cool down.",
+      "en-KE": "Gentle cardio movement ideal for warming up or cool down.",
+      "en-ZA": "Gentle cardio movement ideal for warming up or cool down."
+    },
+    "media": "/exercises-media/march-in-place.gif",
+    "accessPlans": [1, 2, 3, 4]
+  },
+  {
+    "id": "seated-leg-extensions",
+    "name": {
+      "en-NG": "Seated Leg Extensions",
+      "fr-CI": "Extensions de jambes assis",
+      "en-GH": "Seated Leg Extensions",
+      "en-KE": "Seated Leg Extensions",
+      "en-ZA": "Seated Leg Extensions"
+    },
+    "category": "Light",
+    "reps": "15 each leg",
+    "rest": "30 sec",
+    "description": {
+      "en-NG": "Strengthens quadriceps while seated.",
+      "fr-CI": "Renforce les quadriceps en position assise.",
+      "en-GH": "Strengthens quadriceps while seated.",
+      "en-KE": "Strengthens quadriceps while seated.",
+      "en-ZA": "Strengthens quadriceps while seated."
+    },
+    "media": "/exercises-media/seated-leg-extensions.gif",
+    "accessPlans": [1, 2, 3, 4]
+  },
+  {
+    "id": "cat-cow-stretch",
+    "name": {
+      "en-NG": "Cat-Cow Stretch",
+      "fr-CI": "Étirement chat-vache",
+      "en-GH": "Cat-Cow Stretch",
+      "en-KE": "Cat-Cow Stretch",
+      "en-ZA": "Cat-Cow Stretch"
+    },
+    "category": "Light",
+    "duration": "1 min",
+    "rest": "30 sec",
+    "description": {
+      "en-NG": "Gentle spinal mobility stretch improving flexibility.",
+      "fr-CI": "Étirement doux de la mobilité de la colonne vertébrale améliorant la flexibilité.",
+      "en-GH": "Gentle spinal mobility stretch improving flexibility.",
+      "en-KE": "Gentle spinal mobility stretch improving flexibility.",
+      "en-ZA": "Gentle spinal mobility stretch improving flexibility."
+    },
+    "media": "/exercises-media/cat-cow-stretch.gif",
+    "accessPlans": [1, 2, 3, 4]
+  },
+  {
+    "id": "donkey-kicks",
+    "name": {
+      "en-NG": "Donkey Kicks",
+      "fr-CI": "Coups de pied d'âne",
+      "en-GH": "Donkey Kicks",
+      "en-KE": "Donkey Kicks",
+      "en-ZA": "Donkey Kicks"
+    },
+    "category": "Moderate",
+    "reps": "12 each leg",
+    "rest": "45 sec",
+    "description": {
+      "en-NG": "Glute-focused exercise improving lower body strength.",
+      "fr-CI": "Exercice axé sur les fessiers améliorant la force du bas du corps.",
+      "en-GH": "Glute-focused exercise improving lower body strength.",
+      "en-KE": "Glute-focused exercise improving lower body strength.",
+      "en-ZA": "Glute-focused exercise improving lower body strength."
+    },
+    "media": "/exercises-media/donkey-kicks.gif",
+    "accessPlans": [2, 3, 4]
+  },
+  {
+    "id": "reverse-crunches",
+    "name": {
+      "en-NG": "Reverse Crunches",
+      "fr-CI": "Crunchs inversés",
+      "en-GH": "Reverse Crunches",
+      "en-KE": "Reverse Crunches",
+      "en-ZA": "Reverse Crunches"
+    },
+    "category": "Moderate",
+    "reps": "15",
+    "rest": "45 sec",
+    "description": {
+      "en-NG": "Abdominal exercise emphasizing lower abs.",
+      "fr-CI": "Exercice abdominal mettant l'accent sur les abdominaux inférieurs.",
+      "en-GH": "Abdominal exercise emphasizing lower abs.",
+      "en-KE": "Abdominal exercise emphasizing lower abs.",
+      "en-ZA": "Abdominal exercise emphasizing lower abs."
+    },
+    "media": "/exercises-media/reverse-crunches.gif",
+    "accessPlans": [2, 3, 4]
+  },
+  {
+    "id": "inchworms",
+    "name": {
+      "en-NG": "Inchworms",
+      "fr-CI": "Chenilles",
+      "en-GH": "Inchworms",
+      "en-KE": "Inchworms",
+      "en-ZA": "Inchworms"
+    },
+    "category": "Moderate",
+    "reps": "8–10",
+    "rest": "45 sec",
+    "description": {
+      "en-NG": "Dynamic warm-up exercise that stretches the hamstrings and activates the core.",
+      "fr-CI": "Exercice d'échauffement dynamique qui étire les ischio-jambiers et active le tronc.",
+      "en-GH": "Dynamic warm-up exercise that stretches the hamstrings and activates the core.",
+      "en-KE": "Dynamic warm-up exercise that stretches the hamstrings and activates the core.",
+      "en-ZA": "Dynamic warm-up exercise that stretches the hamstrings and activates the core."
+    },
+    "media": "/exercises-media/inchworms.gif",
+    "accessPlans": [2, 3, 4]
+  }
+]
